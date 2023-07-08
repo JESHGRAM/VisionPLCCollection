@@ -1,0 +1,39 @@
+Name: Trend
+Id: g=a1a0040e31b3d8c6ea4d25eeea072dae
+Type: FolderType
+Children:
+- Name: DateTime
+  Id: g=1ac021d8ea7db1d14604b5ed8298cb54
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "2021-01-01T09:30:00.0000000"
+- Name: DateTimeQuery
+  Id: g=d8d2e13da25d12041a7765011b32d39a
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "2021-01-01T09:30:00.0000000"
+- Name: TimeWindow
+  Id: g=dcc6aff4b2711958130651df55fc90ce
+  Type: BaseDataVariableType
+  DataType: Duration
+  Value: "0:00:01:0.0000000"
+- Name: Turn
+  Id: g=0f2a29570f6ab904ee917327c79a846e
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true
+- Name: Tray
+  Id: g=bf1fb5aa924f8da70af4cea74c9619fe
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true
+- Name: Row
+  Id: g=6c2f5b0d48f6a38161d6642d635e3a0a
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true
+- Name: Error
+  Id: g=2b493d5732d67c6dddc08b2bcb846bbf
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true

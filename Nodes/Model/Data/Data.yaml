@@ -1,0 +1,34 @@
+Name: Data
+Id: g=e4d95b2bddbe652001817430d0aa3758
+Type: FolderType
+Children:
+- File: Datalogger/Datalogger.yaml
+- File: Trend/Trend.yaml
+- File: Recipes/Recipes.yaml
+- File: XYChart/XYChart.yaml
+- File: PieChart/PieChart.yaml
+- File: HistogramChart/HistogramChart.yaml
+- File: Query/Query.yaml
+- File: DataControl/DataControl.yaml
+- Name: DateTimeOffset
+  Id: g=f4c4034faf3141ba0054189b9f2cb33a
+  Type: BaseDataVariableType
+  DataType: Duration
+  Value: "0:02:00:0.0000000"
+- Name: New_data
+  Id: g=df6f14608ba5fd13c435255941b1871c
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Id: g=eade9fa47a334655ef1a06d8495d960e
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Program&:LineMonitor/Trigger1@Value"
+    Children:
+    - Name: Mode
+      Id: g=2f0a80617fbabaa9b8de1a70f78efbc1
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
