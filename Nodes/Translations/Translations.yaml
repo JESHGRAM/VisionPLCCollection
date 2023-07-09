@@ -1,5 +1,4 @@
 Name: Translations
-Id: g=3d4c8096f66f8e5b574b25c4dd9fe621
 Type: TranslationsCategoryFolder
 Children:
 - Name: LocalizationDictionary1
@@ -358,38 +357,31 @@ Children:
     ]
    }
 - Name: ImportAndExportTranslations
-  Id: g=1bb5d0d30d9e27279beb3046432a4fbd
   Type: NetLogic
   WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
   Children:
   - Name: BehaviourStartPriority
-    Id: g=d78c4f9769445d177cb595eedbcbda6a
     Type: BehaviourStartPriorityVariableType
     DataType: Byte
     Value: 180
   - Name: CSVPath
-    Id: g=c77f2a7c7f583851ad2cc6c263d13545
     Type: BaseDataVariableType
     DataType: AbsoluteResourceUri
     Value: "file:///C:/EP/OneDrive - ASEM S.r.l. con Socio Unico/00_UNIQO/UNIQO_proj/Projects/Test/DemoUniqoENG_ITA_CHN.csv"
   - Name: CharacterSeparator
-    Id: g=dc3ee79fc63592a7784d76d461ec703a
     Type: BaseDataVariableType
     DataType: String
     Value: ";"
   - Name: WrapFields
-    Id: g=3132af96a109d862996995332afadd3d
     Type: BaseDataVariableType
     DataType: Boolean
     Value: false
   - Name: LocalizationDictionary
-    Id: g=565e42d438516ace5dfb7b8e27b4bd3d
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":2,"Id":"bb3c6cf9228e7a16e6800e07fe221fc6","Namespace":40}
     Children:
     - Name: Kind
-      Id: g=8af5e7723379de004e2960c9c7c7df41
       Type: PropertyType
       DataType: NodeId
       Value: {"Id":42,"Namespace":1}

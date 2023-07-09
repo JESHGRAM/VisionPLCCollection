@@ -1,13 +1,10 @@
 Name: Tags
-Id: g=103e4415a3cf62d06803242429d2f4eb
 Type: BaseObjectType
 Children:
 - Name: 'Program:LineMonitor'
-  Id: g=a01e25ea30f1f112fb89f1373330b5d2
   Type: TagStructure
   Children:
   - Name: Last_Inspect_cam
-    Id: g=f21a6c2e0fff1ff1f2949b40531ab02a
     Type: RAEtherNetIPTag
     DataType: Int32
     ValueRank: OneDimension
@@ -15,139 +12,114 @@ Children:
     Value: [0,0,0,0]
     Children:
     - Name: SymbolName
-      Id: g=2ad7adfbb58cfdf7172febf295627a74
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:LineMonitor.Last_Inspect_cam"
   - Name: Ack2
-    Id: g=18736678761d0b09921de87828343a55
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
     Children:
     - Name: SymbolName
-      Id: g=df71e4fee676c33b58c9b27a9d60a476
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:LineMonitor.Ack2"
   - Name: Trigger1
-    Id: g=de5c584136ef17b36248807b543a7d75
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
     Children:
     - Name: SymbolName
-      Id: g=082dad5e04b3a3b957f4e122861de6b4
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:LineMonitor.Trigger1"
   - Name: Trigger2
-    Id: g=ec50b56bda90403c865a6320cf2e1f30
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
     Children:
     - Name: SymbolName
-      Id: g=85ed4c4d9663487336106d22a96d14b7
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:LineMonitor.Trigger2"
   - Name: Ack1
-    Id: g=ab21e59fd57bc515df3c5e47680a5684
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
     Children:
     - Name: SymbolName
-      Id: g=222fb38788ce2f0e8017203166364ce2
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:LineMonitor.Ack1"
   - Name: Row1
-    Id: g=bf6f1417907ac0e51395119ea7fb2f12
     Type: RAEtherNetIPTag
     DataType: Int16
     Value: 0
     Children:
     - Name: SymbolName
-      Id: g=6a1dce6fee0d6f94ba3a1be70c4fd6f2
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:LineMonitor.Row1"
   - Name: Tray1
-    Id: g=c905df2da7cb8ab9b0a883998cb90167
     Type: RAEtherNetIPTag
     DataType: Int16
     Value: 0
     Children:
     - Name: SymbolName
-      Id: g=8471b6c0899bbea5da5874aa1ebd3324
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:LineMonitor.Tray1"
   - Name: Turn1
-    Id: g=6c77c590aebdb7711520f9f52a9410c3
     Type: RAEtherNetIPTag
     DataType: Int16
     Value: 0
     Children:
     - Name: SymbolName
-      Id: g=36f12c4ca6733937e2fa4ce733ba9d67
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:LineMonitor.Turn1"
   - Name: Error1
-    Id: g=25fc413bdef822c0ab3956421596bf1e
     Type: RAEtherNetIPTag
     DataType: Int32
     Value: 0
     Children:
     - Name: SymbolName
-      Id: g=feb2186472188870e1761b83d8eacd12
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:LineMonitor.Error1"
   - Name: Turn2
-    Id: g=e11e29a48c532d199a579c412123ab3d
     Type: RAEtherNetIPTag
     DataType: Int16
     Value: 0
     Children:
     - Name: SymbolName
-      Id: g=d88bdedb73e422950f0a202ce3df781c
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:LineMonitor.Turn2"
   - Name: Tray2
-    Id: g=4926fc7acc1a208e2427ed2f0dd6b091
     Type: RAEtherNetIPTag
     DataType: Int16
     Value: 0
     Children:
     - Name: SymbolName
-      Id: g=6478ddf50e98adce865041505fc5de74
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:LineMonitor.Tray2"
   - Name: Row2
-    Id: g=7e46f5bc46ece32c99cdae5f0a8cb222
     Type: RAEtherNetIPTag
     DataType: Int16
     Value: 0
     Children:
     - Name: SymbolName
-      Id: g=6026ac29aab78a747defa464b7fe6814
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:LineMonitor.Row2"
   - Name: Error2
-    Id: g=b962bac31c2a373fb8bc65a09cc4ea41
     Type: RAEtherNetIPTag
     DataType: Int16
     Value: 0
     Children:
     - Name: SymbolName
-      Id: g=f0890d917a0bf7a9f8144e22018e8b7f
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:LineMonitor.Error2"

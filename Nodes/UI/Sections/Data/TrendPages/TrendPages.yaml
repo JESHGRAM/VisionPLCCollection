@@ -1,5 +1,4 @@
 Name: TrendPages
-Id: g=0585c17bcd58171f00bf1d3cd78256a0
 Type: FolderType
 Children:
 - Name: TrendRealTime
@@ -8,656 +7,536 @@ Children:
   ReferenceType: HasComponent
   Children:
   - Name: TitleBar
-    Id: g=c5d74eb642108bc6b29b5d4e6a68ec03
     Type: Rectangle
     Children:
     - Name: BorderColor
-      Id: g=0035457b3a190155d16d5641cf219ea1
       Type: BaseDataVariableType
       DataType: Color
       Value: "#000000"
       Children:
       - Name: DynamicColorBorders1
-        Id: g=3c4145102fc89dcf4073c1c74ccf5e84
         Type: DynamicColorBorders
         Children:
         - Name: Source
-          Id: g=5e0d40fca2437096b912a21845295758
           Type: BaseDataVariableType
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
           - Name: DynamicLink
-            Id: g=8d4209f98099a7ade3bfbc46ea045b4a
             Type: DynamicLink
             DataType: NodePath
             Value: "{NodeId:ns=40;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
     - Name: FillColor
-      Id: g=8669b0d91a8f7b8f80f6ac78f48631a5
       Type: BaseDataVariableType
       DataType: Color
       Value: "#ffffff"
       Children:
       - Name: DynamicColorFill1
-        Id: g=ffbc98c2882be9ddea94a4af8b4d1b51
         Type: DynamicColorFill
         Children:
         - Name: Source
-          Id: g=f8fb638af8b25113c3f1b8665f12a8be
           Type: BaseDataVariableType
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
           - Name: DynamicLink
-            Id: g=04a19e4f084f5bc5432fd3c2870c4e7e
             Type: DynamicLink
             DataType: NodePath
             Value: "{NodeId:ns=40;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
     - Name: Live
-      Id: g=544ff23ebbb034cda146adc8b7e563f9
       Type: Label
       Children:
       - Name: Text
-        Id: g=45308a1fd1d9051f569dddeee9c74c8e
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
         Value: {"LocaleId":"en-US","Text":"Real-time"}
       - Name: HorizontalAlignment
-        Id: g=b455529edabd0b53fcc3363d54c6bca0
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
         Value: 2
       - Name: VerticalAlignment
-        Id: g=4eb2d9af3f0f78ee45121d5ef3bad6a7
         Type: BaseVariableType
         DataType: VerticalAlignment
         ModellingRule: Optional
         Value: 2
     - Name: Label1
-      Id: g=cdcff078be2a87e3af7f8556a0d0e2f5
       Type: Label
       Children:
       - Name: Text
-        Id: g=380c1b4e8d522b6934aa03372cea0a4b
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
         Value: {"LocaleId":"en-US","Text":"Turn"}
       - Name: TopMargin
-        Id: g=e4de99616d377be951e0f14f1fb517d7
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 70.0
       - Name: LeftMargin
-        Id: g=08c73f69c525b77c62112bb5386719a1
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 10.0
     - Name: Label2
-      Id: g=37d1b4009c28afbe5496d95d35b57301
       Type: Label
       Children:
       - Name: Text
-        Id: g=b34f85d1be28e96dbeccb39d33850209
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
         Value: {"LocaleId":"en-US","Text":"Tray"}
       - Name: TopMargin
-        Id: g=6555a46245418650589e32e4fd732476
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 131.0
       - Name: LeftMargin
-        Id: g=8e8cfb9c8d6813b9f92a0984c9e45975
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 10.0
     - Name: Label3
-      Id: g=19c5363e0e43c2f738d2ed98b99e65d8
       Type: Label
       Children:
       - Name: Text
-        Id: g=b1b1a3e51b715df2f154ca2135f1e7f4
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
         Value: {"LocaleId":"en-US","Text":"Row"}
       - Name: TopMargin
-        Id: g=2098ce560c0a3ff28675ac4e8004aa01
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 200.0
       - Name: LeftMargin
-        Id: g=b9cdf3fa6ef532f813515a3b9e729670
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 10.0
     - Name: Label4
-      Id: g=0b30834cfa04f0124e4402876ab6558b
       Type: Label
       Children:
       - Name: Text
-        Id: g=62ca6de7136ff0d779bb0ef5b130e551
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
         Value: {"LocaleId":"en-US","Text":"Error"}
       - Name: TopMargin
-        Id: g=4a592b26e619e8e68caf4877c25b1af8
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 270.0
       - Name: LeftMargin
-        Id: g=13bf86120b162e556e1ee2e9e1f85b57
         Type: BaseVariableType
         DataType: Size
         ModellingRule: Optional
         Value: 10.0
   - Name: BorderColor
-    Id: g=f738dace611adadcba424fd46fe14220
     Type: BaseDataVariableType
     DataType: Color
     Value: "#000000"
     Children:
     - Name: DynamicColorBorders1
-      Id: g=5c77f4909e4117ad3bf2258a4a3e80c6
       Type: DynamicColorBorders
       Children:
       - Name: Source
-        Id: g=8997c3d1ebaf1c35a5e2aab9bc2f5f70
         Type: BaseDataVariableType
         DataType: BaseDataType
         ReferenceType: HasSource
         Children:
         - Name: DynamicLink
-          Id: g=b4eb2fdab4e91e716455c1fa4a192fac
           Type: DynamicLink
           DataType: NodePath
           Value: "{NodeId:ns=40;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
   - Name: FillColor
-    Id: g=4f8963168d7bdb1c24e910d39a68e756
     Type: BaseDataVariableType
     DataType: Color
     Value: "#ffffff"
     Children:
     - Name: DynamicColorBackground1
-      Id: g=ecd4fe780c9e730634f3859ff1035c7d
       Type: DynamicColorBackground
       Children:
       - Name: Source
-        Id: g=8df165b4410aab664c82d5f78ffa7f71
         Type: BaseDataVariableType
         DataType: BaseDataType
         ReferenceType: HasSource
         Children:
         - Name: DynamicLink
-          Id: g=034bd35fc842e97d11f9eb9d2bf95346
           Type: DynamicLink
           DataType: NodePath
           Value: "{NodeId:ns=40;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
   - Name: TrendLocalTime
-    Id: g=a9c364f303a0e6a2be70ccb0476aeedb
     Type: Trend
     Children:
     - Name: Pens
-      Id: g=260873a536447b77e911628cf0e7be11
       Type: BaseObjectType
       Children:
       - Name: Turn1
-        Id: g=5e5d82e2deacef9709a4fd1673253a6e
         Type: TrendPen
         DataType: BaseDataType
         Children:
         - Name: Thickness
-          Id: g=2765a658720a10147b5e44dec350768f
           Type: BaseDataVariableType
           DataType: Size
           Value: -1.0
         - Name: Enabled
-          Id: g=e62c529ac4fef8d55899d46a9aadae53
           Type: BaseDataVariableType
           DataType: Boolean
           Value: true
           Children:
           - Name: DynamicLink
-            Id: g=a5737097fbd81162d3ee08e498f609bc
             Type: DynamicLink
             DataType: NodePath
             Value: "{NodeId:ns=40;g=0f2a2957-0f6a-b904-ee91-7327c79a846e}"
         - Name: Color
-          Id: g=5a544735254c8b851c1dd5c022704dbd
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
           Value: "#1b5583"
         - Name: DynamicLink
-          Id: g=c101284bb68ba68c37a4841842aa96d8
           Type: DynamicLink
           DataType: NodePath
           Value: "../../Model/VariablesToLog/Turn1/LastValue"
           Children:
           - Name: Mode
-            Id: g=c6613af75b8ebd8a784ddde2f6e59b25
             Type: BaseVariableType
             DataType: DynamicLinkMode
             ModellingRule: Optional
             Value: 2
       - Name: Tray1
-        Id: g=8515d5347cffdc449d0b9bc66c9ebe67
         Type: TrendPen
         DataType: BaseDataType
         Children:
         - Name: Thickness
-          Id: g=a794bc954483d4d53e815219dcd64740
           Type: BaseDataVariableType
           DataType: Size
           Value: -1.0
         - Name: Enabled
-          Id: g=0f930807e881b6edd5ab2e1291a5ecff
           Type: BaseDataVariableType
           DataType: Boolean
           Value: true
           Children:
           - Name: DynamicLink
-            Id: g=c2bfddba4fd03215c8dee6dc71b39102
             Type: DynamicLink
             DataType: NodePath
             Value: "{NodeId:ns=40;g=bf1fb5aa-924f-8da7-0af4-cea74c9619fe}"
         - Name: Color
-          Id: g=889e3464c1a0cd613007e4d7717c66dc
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
           Value: "#f3da08"
         - Name: DynamicLink
-          Id: g=c2e0df705ab5499fec22f005f407adfc
           Type: DynamicLink
           DataType: NodePath
           Value: "../../Model/VariablesToLog/Tray1/LastValue"
           Children:
           - Name: Mode
-            Id: g=d16737810804e959581e86753b48cd72
             Type: BaseVariableType
             DataType: DynamicLinkMode
             ModellingRule: Optional
             Value: 2
       - Name: Row1
-        Id: g=da4a8e5a0f3d70a8c7fc116895d1f3ad
         Type: TrendPen
         DataType: BaseDataType
         Children:
         - Name: Thickness
-          Id: g=a0c1c88bc3a0cb8cf65e22e2a37f4f6f
           Type: BaseDataVariableType
           DataType: Size
           Value: -1.0
         - Name: Enabled
-          Id: g=cfdbcaaf9ba47e2eeb2de91996b41476
           Type: BaseDataVariableType
           DataType: Boolean
           Value: true
           Children:
           - Name: DynamicLink
-            Id: g=ec94d495befcaba5f2959c0e1b7417d6
             Type: DynamicLink
             DataType: NodePath
             Value: "{NodeId:ns=40;g=6c2f5b0d-48f6-a381-61d6-642d635e3a0a}"
         - Name: Color
-          Id: g=7f332d3c8e771306abedd3b2e83086ee
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
           Value: "#ff7514"
         - Name: DynamicLink
-          Id: g=00f871f1887dbbf33692eae44ed2ecd9
           Type: DynamicLink
           DataType: NodePath
           Value: "../../Model/VariablesToLog/Row1/LastValue"
           Children:
           - Name: Mode
-            Id: g=50e00a900e512d9bf6c02e775ab51a13
             Type: BaseVariableType
             DataType: DynamicLinkMode
             ModellingRule: Optional
             Value: 2
       - Name: Error1
-        Id: g=dcc204a51129c757bc9819ba802a9d80
         Type: TrendPen
         DataType: BaseDataType
         Children:
         - Name: Thickness
-          Id: g=3770a7f9482a0a38ceceed1d79d32e76
           Type: BaseDataVariableType
           DataType: Size
           Value: -1.0
         - Name: Enabled
-          Id: g=4c1aad18bcbe92b6ed37734eb6bf657f
           Type: BaseDataVariableType
           DataType: Boolean
           Value: true
           Children:
           - Name: DynamicLink
-            Id: g=97a44954eb979e15d8108487b649f063
             Type: DynamicLink
             DataType: NodePath
             Value: "{NodeId:ns=40;g=2b493d57-32d6-7c6d-ddc0-8b2bcb846bbf}"
         - Name: Color
-          Id: g=7df7849b896a9460410e14a4f9e09904
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
           Value: "#7d7f7d"
         - Name: DynamicLink
-          Id: g=be1c0b95dfcdf56a2cb53c628ac6b2d3
           Type: DynamicLink
           DataType: NodePath
           Value: "../../Model/VariablesToLog/Error1/LastValue"
           Children:
           - Name: Mode
-            Id: g=165b2ad4863733fec0d18860bf2fb936
             Type: BaseVariableType
             DataType: DynamicLinkMode
             ModellingRule: Optional
             Value: 2
       - Name: Turn2
-        Id: g=af0c4854cead15c6c92be8d4ffb36474
         Type: TrendPen
         DataType: BaseDataType
         Children:
         - Name: Thickness
-          Id: g=03731a48939da64b689bc6ae7c9e0e3c
           Type: BaseDataVariableType
           DataType: Size
           Value: -1.0
         - Name: Enabled
-          Id: g=1731e311d8e112e17225774aaf1a5112
           Type: BaseDataVariableType
           DataType: Boolean
           Value: true
           Children:
           - Name: DynamicLink
-            Id: g=2fc4c96ce89f9d6e3a69075d6dca6719
             Type: DynamicLink
             DataType: NodePath
             Value: "{NodeId:ns=40;g=0f2a2957-0f6a-b904-ee91-7327c79a846e}"
         - Name: Color
-          Id: g=ded536b64b1bc0fb945c8363d2237aa4
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
           Value: "#4c9141"
         - Name: DynamicLink
-          Id: g=7c09acb51629d5a3b0ee5b603e79713b
           Type: DynamicLink
           DataType: NodePath
           Value: "../../Model/VariablesToLog/Turn2/LastValue"
           Children:
           - Name: Mode
-            Id: g=888a4dfcdaf366c8b4bbc0bddabdd46e
             Type: BaseVariableType
             DataType: DynamicLinkMode
             ModellingRule: Optional
             Value: 2
       - Name: Tray2
-        Id: g=2f8be3859bdaf460955cdd0920afeef2
         Type: TrendPen
         DataType: BaseDataType
         Children:
         - Name: Thickness
-          Id: g=c13d9442e70013891c4f6f80fcfe52c5
           Type: BaseDataVariableType
           DataType: Size
           Value: -1.0
         - Name: Enabled
-          Id: g=e93d45e4dbfb93ae20f9d15eeb4a5669
           Type: BaseDataVariableType
           DataType: Boolean
           Value: true
           Children:
           - Name: DynamicLink
-            Id: g=7ce0a36bf29cff43528310c7d2d60ac5
             Type: DynamicLink
             DataType: NodePath
             Value: "{NodeId:ns=40;g=bf1fb5aa-924f-8da7-0af4-cea74c9619fe}"
         - Name: Color
-          Id: g=49060ee30aea16950a24ed95dd3112b3
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
           Value: "#922b3e"
         - Name: DynamicLink
-          Id: g=dd60984dd0df76e40c328f58c199df19
           Type: DynamicLink
           DataType: NodePath
           Value: "../../Model/VariablesToLog/Tray2/LastValue"
           Children:
           - Name: Mode
-            Id: g=a4e9085c3f4d89e3a18795a18a8ce7d3
             Type: BaseVariableType
             DataType: DynamicLinkMode
             ModellingRule: Optional
             Value: 2
       - Name: Row2
-        Id: g=85ff779fa5da9fa403c1aee7094c9745
         Type: TrendPen
         DataType: BaseDataType
         Children:
         - Name: Thickness
-          Id: g=475f83c6e2afbe5cfadbb57cbb153b21
           Type: BaseDataVariableType
           DataType: Size
           Value: -1.0
         - Name: Enabled
-          Id: g=16e762076fa20c672ca292725659e575
           Type: BaseDataVariableType
           DataType: Boolean
           Value: true
           Children:
           - Name: DynamicLink
-            Id: g=20dd1052354e94a8547b58b3e4637593
             Type: DynamicLink
             DataType: NodePath
             Value: "{NodeId:ns=40;g=6c2f5b0d-48f6-a381-61d6-642d635e3a0a}"
         - Name: Color
-          Id: g=74c7b1dab771b0b159291e3a8de363e3
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
           Value: "#84c3be"
         - Name: DynamicLink
-          Id: g=2f5819142e4f241cf708014d8acf3234
           Type: DynamicLink
           DataType: NodePath
           Value: "../../Model/VariablesToLog/Row2/LastValue"
           Children:
           - Name: Mode
-            Id: g=1ad1bd06816d31fbb1f61b05ecd78858
             Type: BaseVariableType
             DataType: DynamicLinkMode
             ModellingRule: Optional
             Value: 2
       - Name: Error2
-        Id: g=0f0cf2d70405a4d531933a398c0768d2
         Type: TrendPen
         DataType: BaseDataType
         Children:
         - Name: Thickness
-          Id: g=0acc18936be9fafbc8760cb5e94d0fcf
           Type: BaseDataVariableType
           DataType: Size
           Value: -1.0
         - Name: Enabled
-          Id: g=0b6fba55b6359872c1743c5aa68181a0
           Type: BaseDataVariableType
           DataType: Boolean
           Value: true
           Children:
           - Name: DynamicLink
-            Id: g=dea9f7a9185f968a5bdb896418fcb6de
             Type: DynamicLink
             DataType: NodePath
             Value: "{NodeId:ns=40;g=2b493d57-32d6-7c6d-ddc0-8b2bcb846bbf}"
         - Name: Color
-          Id: g=c8eb05bfd7ffb0081a59620cb2f8ae65
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
           Value: "#8f8b66"
         - Name: DynamicLink
-          Id: g=dd0d114346f375a1ebce045bd5e446b3
           Type: DynamicLink
           DataType: NodePath
           Value: "../../Model/VariablesToLog/Error2/LastValue"
           Children:
           - Name: Mode
-            Id: g=5f0322e8da8b50e4589366537e176b82
             Type: BaseVariableType
             DataType: DynamicLinkMode
             ModellingRule: Optional
             Value: 2
     - Name: XAxis
-      Id: g=71244d789c71c6698d9a54863fd327ed
       Type: DateTimeAxis
       Children:
       - Name: Follow
-        Id: g=99c9c698111bf98811f30cb18f04c34e
         Type: BaseDataVariableType
         DataType: Boolean
         Value: true
       - Name: Window
-        Id: g=3cea22a07f31a73843b07f660bab2b47
         Type: BaseDataVariableType
         DataType: Duration
         Value: "0:00:00:5.0000000"
         Children:
         - Name: DynamicLink
-          Id: g=3a65792a81ccb7e38b1afb16788546a1
           Type: DynamicLink
           DataType: NodePath
           Value: "{NodeId:ns=40;g=dcc6aff4-b271-1958-1306-51df55fc90ce}"
       - Name: Interactive
-        Id: g=25c486d9343308a16c5910601f7f9d8d
         Type: BaseDataVariableType
         DataType: Boolean
         Value: true
       - Name: Time
-        Id: g=2049ac969ea6be07e7035d279e882e84
         Type: BaseDataVariableType
         DataType: DateTime
         Value: "1601-01-01T00:00:00.0000000"
         Children:
         - Name: DynamicLink
-          Id: g=cd93c698c210d8365112a6d60b5cbf84
           Type: DynamicLink
           DataType: NodePath
           Value: "{NodeId:ns=40;g=1ac021d8-ea7d-b1d1-4604-b5ed8298cb54}"
     - Name: YAxis
-      Id: g=61456758fa7936eea080bc0f6daceb0f
       Type: ValueAxis
       Children:
       - Name: MinValue
-        Id: g=925a00a78bbb247dba3c7db94f1adaf3
         Type: BaseDataVariableType
         DataType: Size
         Value: 0.0
         Children:
         - Name: DynamicLink
-          Id: g=829d890a58d3b4e7c223438d92a9feb9
           Type: DynamicLink
           DataType: NodePath
           Value: "{NodeId:ns=40;g=3e823cfc-c403-b8bd-349a-c7037da062b9}"
       - Name: MaxValue
-        Id: g=467fb6201b16bd8d8baa06af48dda49d
         Type: BaseDataVariableType
         DataType: Size
         Value: 600.0
         Children:
         - Name: DynamicLink
-          Id: g=694c3b59981b12a3d56fdf90611846e7
           Type: DynamicLink
           DataType: NodePath
           Value: "{NodeId:ns=40;g=fe30e95a-d081-d6a3-a94e-34347a36185d}"
       - Name: AutoScale
-        Id: g=25d079b0ac1f9be5cdb3617cb6d248a7
         Type: BaseDataVariableType
         DataType: Boolean
         Value: false
       - Name: Interactive
-        Id: g=1dcf10810895e39ca78544565348442e
         Type: BaseDataVariableType
         DataType: Boolean
         Value: true
     - Name: LegendVisible
-      Id: g=a498d7f05796890ff5ddc1a8acb14849
       Type: BaseDataVariableType
       DataType: Boolean
       Value: true
     - Name: Width
-      Id: g=035e5d37bdbd9935ce7b3fabe193b25f
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 320.0
     - Name: Height
-      Id: g=d58af6c55934211c7209f47250412852
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: -60.0
     - Name: LeftMargin
-      Id: g=4bbc7fe96fca6699548de4276ce538d0
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 180.0
     - Name: TopMargin
-      Id: g=bc70c69c80b96af7bbc7583e6edeff01
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 80.0
     - Name: BottomMargin
-      Id: g=9daee2fcb9fc6589c80035026d66d8ea
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 70.0
     - Name: RightMargin
-      Id: g=c4489849ac8324ff0bb53e249da8ce26
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 130.0
     - Name: ReferenceTimeZone
-      Id: g=a432802cbc163ef545d70c59e7e1bee5
       Type: BaseDataVariableType
       DataType: ReferenceTimeZone
       ModellingRule: Optional
       Value: 2
     - Name: RefreshTime
-      Id: g=ee0a18ec4f2be41a1e6107205203bd5b
       Type: BaseDataVariableType
       DataType: UInt32
       ModellingRule: Optional
       Value: 500
     - Name: HorizontalAlignment
-      Id: g=4bd3cd1d14397ca731d649013700668c
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
       Value: 3
     - Name: VerticalAlignment
-      Id: g=77b33d63f036aa425082daf50c55475d
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
@@ -666,317 +545,262 @@ Children:
       Target: ns=7;i=1129
       Direction: Forward
     - Name: Model
-      Id: g=09923efde545cd03862c9a99b14a4d9b
       Type: NodePointer
       DataType: NodeId
       Value: {"IdType":2,"Id":"19443673963147ffee9c09153f7c8357","Namespace":40}
       Children:
       - Name: ItemKind
-        Id: g=b286a69a030df402f909a7dfac3a6494
         Type: PropertyType
         DataType: NodeId
         Value: {"IdType":0,"Id":0,"Namespace":-1}
       - Name: Kind
-        Id: g=c8aa2ff56f6b3068e8ced5c8eebd638b
         Type: PropertyType
         DataType: NodeId
         Value: {"IdType":0,"Id":0,"Namespace":-1}
   - Name: HorizontalAlignment
-    Id: g=73ed9e3f36b8fedfec7ecfc48991d690
     Type: BaseVariableType
     DataType: HorizontalAlignment
     ModellingRule: Optional
     Value: 3
   - Name: VerticalAlignment
-    Id: g=ed3c7b78740f355d3651c4fee15cfb7b
     Type: BaseVariableType
     DataType: VerticalAlignment
     ModellingRule: Optional
     Value: 3
   - Name: Width
-    Id: g=301a9d16f38c4ec9dd0e794a6947364b
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 830.0
   - Name: Height
-    Id: g=7063d397b421ded062b8ab2b771b5e99
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 520.0
   - Name: ValueFollowRealTime
-    Id: g=df33b58393ee2c14020e8adf857e7064
     Type: Switch
     Children:
     - Name: Checked
-      Id: g=3c4baba3b7bddbbe16e0fa0725908be8
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
       Children:
       - Name: DynamicLink
-        Id: g=e9fffde03a7ad2fa216a7f8b9e02ebad
         Type: DynamicLink
         DataType: NodePath
         Value: "../../TrendLocalTime/XAxis/Follow"
         Children:
         - Name: Mode
-          Id: g=ad5cfcfa3c902989e0997869267c7811
           Type: BaseVariableType
           DataType: DynamicLinkMode
           ModellingRule: Optional
           Value: 2
     - Name: Width
-      Id: g=8d621ec90656d7713e66d6f76143740f
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 80.0
     - Name: TopMargin
-      Id: g=20a6cc9658d4eea14f639db568fa1e3b
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 80.0
     - Name: HorizontalAlignment
-      Id: g=e145ce93deecef77b88a49889ced74a1
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
       Value: 1
     - Name: UncheckedText
-      Id: g=87a24cf7a157f5e3b000c4876d744b9a
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
       Value: {"NamespaceIndex":40,"TextId":"Follow"}
     - Name: FontSize
-      Id: g=1fe2612699047963dee36896cd5578c1
       Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 12.0
     - Name: Height
-      Id: g=3eef80ba610649cfaf2851dcfd8169a2
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 35.0
     - Name: RightMargin
-      Id: g=0d517fe8a8ba45d9e8f629d616e76616
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 30.0
   - Name: HitTestVisible
-    Id: g=abe658c5961f71c26e0a951532573ab2
     Type: BaseDataVariableType
     DataType: Boolean
     ModellingRule: Optional
     Value: false
   - Name: MoveTarget
-    Id: g=1b383b61b7e560bc744b303c238f891a
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":0,"Id":0,"Namespace":-1}
     Children:
     - Name: Kind
-      Id: g=e6dfd9344875a41583a0aa46a6b3b056
       Type: PropertyType
       DataType: NodeId
       Value: {"Id":71,"Namespace":7}
     - Name: DynamicLink
-      Id: g=1be6bc16ed407dfe1ca777414b8fb455
       Type: DynamicLink
       DataType: NodePath
       Value: ""
   - Name: Blink
-    Id: g=48ab5403bcdfb0d6df25aef6b4d0bf77
     Type: BaseDataVariableType
     DataType: Boolean
     ModellingRule: Optional
     Value: false
   - Name: Turn
-    Id: g=25ad949b920f1677d2701b000c0a8c3d
     Type: Switch
     Children:
     - Name: Checked
-      Id: g=f604e480439a4e1c006331aee32635bc
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
       Children:
       - Name: DynamicLink
-        Id: g=fb0e4e7435541511e813a3fd584434ea
         Type: DynamicLink
         DataType: NodePath
         Value: "{NodeId:ns=40;g=0f2a2957-0f6a-b904-ee91-7327c79a846e}"
         Children:
         - Name: Mode
-          Id: g=da79bef3549f095be050a7a070e1e231
           Type: BaseVariableType
           DataType: DynamicLinkMode
           ModellingRule: Optional
           Value: 2
     - Name: Width
-      Id: g=a61c63ea50955f55f13d67332e827a0e
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 60.0
     - Name: TopMargin
-      Id: g=732afb3bcc801d94df1f74f5a180b488
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 89.0
     - Name: Visible
-      Id: g=3b71b4e68c2dfeaf02d9a2fec67f3729
       Type: BaseDataVariableType
       DataType: Boolean
       ModellingRule: Optional
       Value: true
     - Name: LeftMargin
-      Id: g=5ea7d149504863eafeb772e2b9871b4e
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 10.0
   - Name: Tray
-    Id: g=60540aed9cba072ab9427059d3aa9949
     Type: Switch
     Children:
     - Name: Checked
-      Id: g=66886329a71d8bd695697d7e7c50920d
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
       Children:
       - Name: DynamicLink
-        Id: g=43031e201bd941a1640874a20a41f447
         Type: DynamicLink
         DataType: NodePath
         Value: "{NodeId:ns=40;g=bf1fb5aa-924f-8da7-0af4-cea74c9619fe}"
         Children:
         - Name: Mode
-          Id: g=77f2271bb41e31b4d3ee93a1b5b59f35
           Type: BaseVariableType
           DataType: DynamicLinkMode
           ModellingRule: Optional
           Value: 2
     - Name: Width
-      Id: g=0150580c4a99ebea620c63537c2ebe24
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 60.0
     - Name: TopMargin
-      Id: g=841045d97e331c0d81508c30bc2fd648
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 150.0
     - Name: Visible
-      Id: g=f7d6a9df80779bda430781fac3934eab
       Type: BaseDataVariableType
       DataType: Boolean
       ModellingRule: Optional
       Value: true
     - Name: LeftMargin
-      Id: g=9c2f72fa056ba25b9434440d2985ab69
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 10.0
   - Name: Row
-    Id: g=15c4ce9a29190cb39e804be81b019e20
     Type: Switch
     Children:
     - Name: Checked
-      Id: g=e15ff4e387b7e40ed3af9c6101a4e127
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
       Children:
       - Name: DynamicLink
-        Id: g=67d11cc47497c1082c5ab724ca930105
         Type: DynamicLink
         DataType: NodePath
         Value: "{NodeId:ns=40;g=6c2f5b0d-48f6-a381-61d6-642d635e3a0a}"
         Children:
         - Name: Mode
-          Id: g=283843789cd37f23fc47d691b26068fe
           Type: BaseVariableType
           DataType: DynamicLinkMode
           ModellingRule: Optional
           Value: 2
     - Name: Width
-      Id: g=17dacb6ae608d8253eaaeb49a8870cc1
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 60.0
     - Name: TopMargin
-      Id: g=559c3d4b77ea85b53883c4233a81bb49
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 220.0
     - Name: Visible
-      Id: g=1e2686c1bdcc79bc394c650e8c03da10
       Type: BaseDataVariableType
       DataType: Boolean
       ModellingRule: Optional
       Value: true
     - Name: LeftMargin
-      Id: g=15f912614eb08f4ce84594ce2fc44724
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 10.0
   - Name: Error
-    Id: g=8a72325636e1a4834ccbf5b56b6eb933
     Type: Switch
     Children:
     - Name: Checked
-      Id: g=55a029901b2656d5204bcecd74951075
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
       Children:
       - Name: DynamicLink
-        Id: g=386d0f56b1b081dc88f620bcb742e03c
         Type: DynamicLink
         DataType: NodePath
         Value: "{NodeId:ns=40;g=2b493d57-32d6-7c6d-ddc0-8b2bcb846bbf}"
         Children:
         - Name: Mode
-          Id: g=7d37dbc3310743be367351b59f1e82ae
           Type: BaseVariableType
           DataType: DynamicLinkMode
           ModellingRule: Optional
           Value: 2
     - Name: Width
-      Id: g=eccf801839067143aa1f17e54eefb4ac
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 60.0
     - Name: TopMargin
-      Id: g=b89430c0a212d8bdf2d06a18ea1c64c7
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 290.0
     - Name: Visible
-      Id: g=ab6fc5ef5c66e3915d3a0c5f32aef5fb
       Type: BaseDataVariableType
       DataType: Boolean
       ModellingRule: Optional
       Value: true
     - Name: LeftMargin
-      Id: g=c7b2a4d38ff8bf66ec83fba7a9ed8dfa
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
@@ -987,554 +811,452 @@ Children:
   ReferenceType: HasComponent
   Children:
   - Name: TitleBar
-    Id: g=df4443a137cb9ebd4c97bc0417d85af3
     Type: Rectangle
     Children:
     - Name: BorderColor
-      Id: g=31c431536c31aeb36493ff5411881d38
       Type: BaseDataVariableType
       DataType: Color
       Value: "#000000"
       Children:
       - Name: DynamicColorBorders1
-        Id: g=3157136d342f092c8fa7869ba6a8c73c
         Type: DynamicColorBorders
         Children:
         - Name: Source
-          Id: g=2554cc119b957739d937832f1c26357f
           Type: BaseDataVariableType
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
           - Name: DynamicLink
-            Id: g=31914e9bf3369ddca25c580483b3638e
             Type: DynamicLink
             DataType: NodePath
             Value: "{NodeId:ns=40;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
     - Name: FillColor
-      Id: g=9fe4c84e2ac94515b9d5bada6487b2c2
       Type: BaseDataVariableType
       DataType: Color
       Value: "#ffffff"
       Children:
       - Name: DynamicColorFill1
-        Id: g=39e84f3dc9d77745e5304a8cc848b386
         Type: DynamicColorFill
         Children:
         - Name: Source
-          Id: g=899a57974d762709aa62c5ab721eca55
           Type: BaseDataVariableType
           DataType: BaseDataType
           ReferenceType: HasSource
           Children:
           - Name: DynamicLink
-            Id: g=ca4ff7eacc057ae872982f3d467ecce7
             Type: DynamicLink
             DataType: NodePath
             Value: "{NodeId:ns=40;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
     - Name: Historical
-      Id: g=5d91a0ecaee118b4dafd70d05eb098fe
       Type: Label
       Children:
       - Name: Text
-        Id: g=d32791b1f3e442928e8569187abed33c
         Type: BaseDataVariableType
         DataType: LocalizedText
         ModellingRule: Optional
         Value: {"LocaleId":"en-US","Text":"Historical"}
       - Name: HorizontalAlignment
-        Id: g=55c87adc29484853cc4253d8bdf35d46
         Type: BaseVariableType
         DataType: HorizontalAlignment
         ModellingRule: Optional
         Value: 2
       - Name: VerticalAlignment
-        Id: g=00c062204d8463e469ea3cd6420f958e
         Type: BaseVariableType
         DataType: VerticalAlignment
         ModellingRule: Optional
         Value: 2
   - Name: BorderColor
-    Id: g=24179f5ad7aeeb2d0b3407e7f1b78483
     Type: BaseDataVariableType
     DataType: Color
     Value: "#000000"
     Children:
     - Name: DynamicColorBorders1
-      Id: g=7f89fbb4c8c0df5dda9df53c300b5be0
       Type: DynamicColorBorders
       Children:
       - Name: Source
-        Id: g=37e6508ad943a0d9eeafa14b5faa21bc
         Type: BaseDataVariableType
         DataType: BaseDataType
         ReferenceType: HasSource
         Children:
         - Name: DynamicLink
-          Id: g=6b817a9e16660fa03e6de5e0d7e710dd
           Type: DynamicLink
           DataType: NodePath
           Value: "{NodeId:ns=40;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
   - Name: FillColor
-    Id: g=f348f78f8da35902b7001a8b7518fb58
     Type: BaseDataVariableType
     DataType: Color
     Value: "#ffffff"
     Children:
     - Name: DynamicColorBackground1
-      Id: g=3208eb05bc15806578bb509b49fbe9f9
       Type: DynamicColorBackground
       Children:
       - Name: Source
-        Id: g=4248d159fa8ee8e28ccca8e3d2264639
         Type: BaseDataVariableType
         DataType: BaseDataType
         ReferenceType: HasSource
         Children:
         - Name: DynamicLink
-          Id: g=ada0d166e59cbfa2ff401c3863059aa6
           Type: DynamicLink
           DataType: NodePath
           Value: "{NodeId:ns=40;g=118f122c-d861-f205-4736-ba5249d5dece}@Pointer"
   - Name: TrendLiveHistory
-    Id: g=3366132dd72b290867ea9afd2df37c10
     Type: Trend
     Children:
     - Name: Pens
-      Id: g=02dedf01d92c39b9718fb55a0da399b9
       Type: BaseObjectType
       Children:
       - Name: Turn1
-        Id: g=9929ce2a41ce8ea303ad1f78b6827fd3
         Type: TrendPen
         DataType: BaseDataType
         Children:
         - Name: Thickness
-          Id: g=6cde148217a4ac60d38db66c2b502328
           Type: BaseDataVariableType
           DataType: Size
           Value: -1.0
         - Name: Enabled
-          Id: g=6c76b243619bdc28d191a4d4f26d0c2b
           Type: BaseDataVariableType
           DataType: Boolean
           Value: true
           Children:
           - Name: DynamicLink
-            Id: g=5de225c0779c5dae9ba1a502f54a8154
             Type: DynamicLink
             DataType: NodePath
             Value: "{NodeId:ns=40;g=0f2a2957-0f6a-b904-ee91-7327c79a846e}"
       - Name: Tray1
-        Id: g=2382e20f790d2040c0bf59ad2f5a1b57
         Type: TrendPen
         DataType: BaseDataType
         Children:
         - Name: Thickness
-          Id: g=5d9da232f02a7ebbd30bfada70dd7c0c
           Type: BaseDataVariableType
           DataType: Size
           Value: -1.0
         - Name: Enabled
-          Id: g=8ff21c9c0f87031eace802e8ee596251
           Type: BaseDataVariableType
           DataType: Boolean
           Value: true
           Children:
           - Name: DynamicLink
-            Id: g=eeb3fcb8c9187324edef7dcfa9adb1f8
             Type: DynamicLink
             DataType: NodePath
             Value: "{NodeId:ns=40;g=bf1fb5aa-924f-8da7-0af4-cea74c9619fe}"
         - Name: Color
-          Id: g=eb12a25fa4e42f4379e93acc77e28beb
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
           Value: "#f3da08"
         - Name: DynamicLink
-          Id: g=6bd216b4bc9a5b4abe3a556524c56150
           Type: DynamicLink
           DataType: NodePath
           Value: "../../Model/VariablesToLog/Tray1/LastValue"
           Children:
           - Name: Mode
-            Id: g=ce1393c074d6076f5ea83e9e699a4c04
             Type: BaseVariableType
             DataType: DynamicLinkMode
             ModellingRule: Optional
             Value: 2
       - Name: Row1
-        Id: g=89aacd0321ff3dd97016582627e7bdb3
         Type: TrendPen
         DataType: BaseDataType
         Children:
         - Name: Thickness
-          Id: g=dc320e9be612e9d70adb0f1956adedd1
           Type: BaseDataVariableType
           DataType: Size
           Value: -1.0
         - Name: Enabled
-          Id: g=da2ecd468396aaeecc99d57ae64a7f9f
           Type: BaseDataVariableType
           DataType: Boolean
           Value: true
           Children:
           - Name: DynamicLink
-            Id: g=845faf689b5dac8d8c9b6b3eb48467c3
             Type: DynamicLink
             DataType: NodePath
             Value: "{NodeId:ns=40;g=6c2f5b0d-48f6-a381-61d6-642d635e3a0a}"
         - Name: Color
-          Id: g=3ea151b808f3435cfaec6c0b5115168a
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
           Value: "#ff7514"
         - Name: DynamicLink
-          Id: g=69c842964f8c13dd8ef6bda8d6f24436
           Type: DynamicLink
           DataType: NodePath
           Value: "../../Model/VariablesToLog/Row1/LastValue"
           Children:
           - Name: Mode
-            Id: g=1ea28930c7604b244ad5fee318beae42
             Type: BaseVariableType
             DataType: DynamicLinkMode
             ModellingRule: Optional
             Value: 2
       - Name: Error1
-        Id: g=1529e26f110cca77b203dea02764252a
         Type: TrendPen
         DataType: BaseDataType
         Children:
         - Name: Thickness
-          Id: g=988122fdc79a08917b4ad5074f14229d
           Type: BaseDataVariableType
           DataType: Size
           Value: -1.0
         - Name: Enabled
-          Id: g=d62c6701b5074ad4f269a853f657a7ad
           Type: BaseDataVariableType
           DataType: Boolean
           Value: true
           Children:
           - Name: DynamicLink
-            Id: g=30a9ea5f74518b249b5ee2056a305955
             Type: DynamicLink
             DataType: NodePath
             Value: "{NodeId:ns=40;g=2b493d57-32d6-7c6d-ddc0-8b2bcb846bbf}"
         - Name: Color
-          Id: g=17bd35711a8a47c8511e6df1d24d3b98
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
           Value: "#7d7f7d"
         - Name: DynamicLink
-          Id: g=3f909611a9ce892f056c61780c4a3011
           Type: DynamicLink
           DataType: NodePath
           Value: "../../Model/VariablesToLog/Error1/LastValue"
           Children:
           - Name: Mode
-            Id: g=5c117d54d9ca4662dbbd64f451c04159
             Type: BaseVariableType
             DataType: DynamicLinkMode
             ModellingRule: Optional
             Value: 2
       - Name: Turn2
-        Id: g=b2eb3b88b2894edc509879b3d567ea81
         Type: TrendPen
         DataType: BaseDataType
         Children:
         - Name: Thickness
-          Id: g=24a00ccc02345ead14c8a2bf291c455b
           Type: BaseDataVariableType
           DataType: Size
           Value: -1.0
         - Name: Enabled
-          Id: g=14f4a86ffd76c53052314d2981e614dd
           Type: BaseDataVariableType
           DataType: Boolean
           Value: true
           Children:
           - Name: DynamicLink
-            Id: g=6487130776c0d2535afbd0c3f2690480
             Type: DynamicLink
             DataType: NodePath
             Value: "{NodeId:ns=40;g=0f2a2957-0f6a-b904-ee91-7327c79a846e}"
         - Name: DynamicLink
-          Id: g=6abfeccf79c2a30a92834e8e82943d06
           Type: DynamicLink
           DataType: NodePath
           Value: "../../Model/VariablesToLog/Turn2/LastValue"
           Children:
           - Name: Mode
-            Id: g=42a459f2d8b173ba520ac18e4941a05e
             Type: BaseVariableType
             DataType: DynamicLinkMode
             ModellingRule: Optional
             Value: 2
       - Name: Tray2
-        Id: g=bb81491673f437c525e7e874fd178ae7
         Type: TrendPen
         DataType: BaseDataType
         Children:
         - Name: Thickness
-          Id: g=f584fd5d2fd0e70a51ee2e7555becd98
           Type: BaseDataVariableType
           DataType: Size
           Value: -1.0
         - Name: Enabled
-          Id: g=ad082e4702f880429428d1b3396110af
           Type: BaseDataVariableType
           DataType: Boolean
           Value: true
           Children:
           - Name: DynamicLink
-            Id: g=d71ee5811c28e86f39e9a7d6299fd76d
             Type: DynamicLink
             DataType: NodePath
             Value: "{NodeId:ns=40;g=bf1fb5aa-924f-8da7-0af4-cea74c9619fe}"
         - Name: Color
-          Id: g=fca9cc3925597ac96c4f1d7c247297b4
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
           Value: "#922b3e"
         - Name: DynamicLink
-          Id: g=5edb4caa4d49bc3e3ea8decd294328a2
           Type: DynamicLink
           DataType: NodePath
           Value: "../../Model/VariablesToLog/Tray2/LastValue"
           Children:
           - Name: Mode
-            Id: g=a1370c4db3fee0d02f8f4fec14727786
             Type: BaseVariableType
             DataType: DynamicLinkMode
             ModellingRule: Optional
             Value: 2
       - Name: Row2
-        Id: g=563c62259c48f8295d6a4e2317692f49
         Type: TrendPen
         DataType: BaseDataType
         Children:
         - Name: Thickness
-          Id: g=0b3a04b6b1ef180ef8d8e75370bbb1d4
           Type: BaseDataVariableType
           DataType: Size
           Value: -1.0
         - Name: Enabled
-          Id: g=dc459e8f07bf0bcbb84c6fa70912ce3c
           Type: BaseDataVariableType
           DataType: Boolean
           Value: true
           Children:
           - Name: DynamicLink
-            Id: g=cbbc9c4ffa0b911e320c0a285fce179c
             Type: DynamicLink
             DataType: NodePath
             Value: "{NodeId:ns=40;g=6c2f5b0d-48f6-a381-61d6-642d635e3a0a}"
         - Name: Color
-          Id: g=28340c3636a862b3ab00e35284409a4d
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
           Value: "#84c3be"
         - Name: DynamicLink
-          Id: g=30d7877296055b79c1d91fccd8c841f2
           Type: DynamicLink
           DataType: NodePath
           Value: "../../Model/VariablesToLog/Row2/LastValue"
           Children:
           - Name: Mode
-            Id: g=ea3bf0f6690951ec9eae0179206433d6
             Type: BaseVariableType
             DataType: DynamicLinkMode
             ModellingRule: Optional
             Value: 2
       - Name: Error2
-        Id: g=6ab2b369f1942f0ade2ee9afc5a7329c
         Type: TrendPen
         DataType: BaseDataType
         Children:
         - Name: Thickness
-          Id: g=f06f54f9e60fc40eb929ffb3952a7f8c
           Type: BaseDataVariableType
           DataType: Size
           Value: -1.0
         - Name: Enabled
-          Id: g=819b78b2554f8693bba9a060af4bb451
           Type: BaseDataVariableType
           DataType: Boolean
           Value: true
           Children:
           - Name: DynamicLink
-            Id: g=67680d5ee8f5cfb9fec9d962eab07933
             Type: DynamicLink
             DataType: NodePath
             Value: "{NodeId:ns=40;g=2b493d57-32d6-7c6d-ddc0-8b2bcb846bbf}"
         - Name: Color
-          Id: g=5caf854746266b135e25bf659d6a7fe4
           Type: BaseDataVariableType
           DataType: Color
           ModellingRule: Optional
           Value: "#8f8b66"
         - Name: DynamicLink
-          Id: g=7d8ecad67c22576a30476c989e50058d
           Type: DynamicLink
           DataType: NodePath
           Value: "../../Model/VariablesToLog/Error2/LastValue"
           Children:
           - Name: Mode
-            Id: g=3ade1bf8ec5b615562da5660b2dcadd4
             Type: BaseVariableType
             DataType: DynamicLinkMode
             ModellingRule: Optional
             Value: 2
     - Name: XAxis
-      Id: g=5e27498bad969d39a58ce6dc4beae25e
       Type: DateTimeAxis
       Children:
       - Name: Follow
-        Id: g=7d2e1a440b85663dd9a33d9043a2ef7f
         Type: BaseDataVariableType
         DataType: Boolean
         Value: true
       - Name: Window
-        Id: g=be4e40d826f554aca20b503259514c27
         Type: BaseDataVariableType
         DataType: Duration
         Value: "0:00:00:5.0000000"
         Children:
         - Name: DynamicLink
-          Id: g=97a1f3cd224a6cf58a7372829f1e756c
           Type: DynamicLink
           DataType: NodePath
           Value: "{NodeId:ns=40;g=dcc6aff4-b271-1958-1306-51df55fc90ce}"
       - Name: Interactive
-        Id: g=e906939182b9e8aaa69c1aee3c66591a
         Type: BaseDataVariableType
         DataType: Boolean
         Value: true
       - Name: Time
-        Id: g=c5a795c94f7b362c2747f6bc007c15a7
         Type: BaseDataVariableType
         DataType: DateTime
         Value: "1601-01-01T00:00:00.0000000"
     - Name: YAxis
-      Id: g=5c0d75bcec8cf974b8dac9833077f3fd
       Type: ValueAxis
       Children:
       - Name: MinValue
-        Id: g=135ee24e1de939a5c5ef6781a4c4da4e
         Type: BaseDataVariableType
         DataType: Size
         Value: 0.0
         Children:
         - Name: DynamicLink
-          Id: g=f3db61ccffd24277a570e2c790f3c93b
           Type: DynamicLink
           DataType: NodePath
           Value: "{NodeId:ns=40;g=3e823cfc-c403-b8bd-349a-c7037da062b9}"
       - Name: MaxValue
-        Id: g=9b6aab81d665ff9de3a747618add9476
         Type: BaseDataVariableType
         DataType: Size
         Value: 300.0
         Children:
         - Name: DynamicLink
-          Id: g=2f50259fbe1c4ed706b104abeb9e2f1d
           Type: DynamicLink
           DataType: NodePath
           Value: "{NodeId:ns=40;g=fe30e95a-d081-d6a3-a94e-34347a36185d}"
       - Name: AutoScale
-        Id: g=3aab57a2fdb1906300a414c68815ac4b
         Type: BaseDataVariableType
         DataType: Boolean
         Value: false
       - Name: Interactive
-        Id: g=1c85f4e78643df405c1e82c9d3062000
         Type: BaseDataVariableType
         DataType: Boolean
         Value: true
     - Name: LegendVisible
-      Id: g=30c06508f08e2459cea1e8e0eedc225f
       Type: BaseDataVariableType
       DataType: Boolean
       Value: true
     - Name: Width
-      Id: g=8eb9a14fe9603c98be5283cb49d311ea
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 320.0
     - Name: Height
-      Id: g=b7b3ef09b5f88b3472fea4f15fa37369
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 260.0
     - Name: LeftMargin
-      Id: g=39b49e852066894a71da825970569474
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 70.0
     - Name: TopMargin
-      Id: g=466e0e431121451b7034b9e7158d4063
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 80.0
     - Name: BottomMargin
-      Id: g=c198b583840a732ce50e72c3a9532f60
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 70.0
     - Name: RightMargin
-      Id: g=a6f4f8aabafc91885044e3ed74e0dec0
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 130.0
     - Name: RefreshTime
-      Id: g=312fd13d70a85872f74b7f147fb694b5
       Type: BaseDataVariableType
       DataType: UInt32
       ModellingRule: Optional
       Value: 500
     - Name: Model
-      Id: g=e46db733cbf453de171e84e590b6ab7b
       Type: NodePointer
       DataType: NodeId
       Value: {"IdType":2,"Id":"19443673963147ffee9c09153f7c8357","Namespace":40}
       Children:
       - Name: ItemKind
-        Id: g=150f7262e10f7c122f943a3ea8beed5e
         Type: PropertyType
         DataType: NodeId
         Value: {"IdType":0,"Id":0,"Namespace":-1}
       - Name: Kind
-        Id: g=7e46ce625f67ff068cb7c3c8c46988f5
         Type: PropertyType
         DataType: NodeId
         Value: {"IdType":0,"Id":0,"Namespace":-1}
     - Name: HorizontalAlignment
-      Id: g=4c08a52da7f74a80ed3ee87a0865612b
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
       Value: 3
     - Name: VerticalAlignment
-      Id: g=b6475fc7a053b7c906dad1cbf071c0ea
       Type: BaseVariableType
       DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 3
     - Name: ReferenceTimeZone
-      Id: g=ba67c5afae2ee35e16524016b30719bb
       Type: BaseDataVariableType
       DataType: ReferenceTimeZone
       ModellingRule: Optional
@@ -1543,89 +1265,74 @@ Children:
       Target: ns=7;i=1129
       Direction: Forward
   - Name: HorizontalAlignment
-    Id: g=092cc69605c1d2b36b809ab732dde5f1
     Type: BaseVariableType
     DataType: HorizontalAlignment
     ModellingRule: Optional
     Value: 3
   - Name: VerticalAlignment
-    Id: g=22afa769310874e95c93a3ed902f848b
     Type: BaseVariableType
     DataType: VerticalAlignment
     ModellingRule: Optional
     Value: 3
   - Name: Width
-    Id: g=dddc31d022fbde6e4a35e616b774d860
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 830.0
   - Name: Height
-    Id: g=15919ca4f0027807628cefe035f412a4
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
     Value: 520.0
   - Name: ValueFollowHistorical
-    Id: g=dfcc90698bc6d4208cda3a1fe81248b6
     Type: Switch
     Children:
     - Name: Checked
-      Id: g=39c593c1af50e1d591921b4b88602169
       Type: BaseDataVariableType
       DataType: Boolean
       Value: false
       Children:
       - Name: DynamicLink
-        Id: g=012785cc39f94ffc8d48a2bc4e8951fb
         Type: DynamicLink
         DataType: NodePath
         Value: "../../TrendLiveHistory/XAxis/Follow"
         Children:
         - Name: Mode
-          Id: g=cc7c5507347d1da5300de0a04fe076cd
           Type: BaseVariableType
           DataType: DynamicLinkMode
           ModellingRule: Optional
           Value: 2
     - Name: Width
-      Id: g=1f24f668d32ba921b67ecf596942ffbb
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 80.0
     - Name: TopMargin
-      Id: g=9eefc1d3b7014cbe74facc1c11dc9849
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 80.0
     - Name: HorizontalAlignment
-      Id: g=4bf7b7ef7313f89b16c88589ee5af108
       Type: BaseVariableType
       DataType: HorizontalAlignment
       ModellingRule: Optional
       Value: 1
     - Name: UncheckedText
-      Id: g=13839b9d4a3808d4aa21efdf8595e1df
       Type: BaseDataVariableType
       DataType: LocalizedText
       ModellingRule: Optional
       Value: {"NamespaceIndex":40,"TextId":"Follow"}
     - Name: FontSize
-      Id: g=dcce3e754aa92ba406cf824468ca7ffb
       Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 12.0
     - Name: Height
-      Id: g=c88076f02157f30be1aa3bbf0bb78abd
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
       Value: 35.0
     - Name: RightMargin
-      Id: g=29ac8710741d635278371a8fdc795a10
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional

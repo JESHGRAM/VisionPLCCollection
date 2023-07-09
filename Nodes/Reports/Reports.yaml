@@ -1,5 +1,4 @@
 Name: Reports
-Id: g=4620ef69db19c983a80c7f4b3385d58e
 Type: ReportsCategoryFolder
 Children:
 - Name: ReportStyleSheet1
@@ -7,173 +6,130 @@ Children:
   Type: ReportStyleSheet
   Children:
   - Name: TextColor
-    Id: g=b4eb1882697fb6ba4fe39314823bcf14
     Type: BaseDataVariableType
     DataType: Color
     Value: "#44505a"
   - Name: FontFamily
-    Id: g=48aa3d78584ec8265c995f36b4331460
     Type: BaseDataVariableType
     DataType: Font
     Value: "Segoe UI"
   - Name: FontWeight
-    Id: g=b358d84a91b478b6fba139d1d05ee1ec
     Type: BaseDataVariableType
     DataType: FontWeightEnum
     Value: 400
   - Name: FontPixelSize
-    Id: g=c9e2ac20a739a508cf7d4eede570346b
     Type: BaseDataVariableType
     DataType: Float
     Value: 14.0
   - Name: ButtonStyle
-    Id: g=604e3610281f0fabcc5e0355e4c69255
     Type: ButtonStyle
   - Name: ButtonAccentStyle
-    Id: g=d2038bd60fcc5d3da22026a3fda2f3cd
     Type: ButtonStyle
   - Name: DataInputStyle
-    Id: g=76116937559f4c553ff9ba497488c961
     Type: DataInputStyle
   - Name: SwitchStyle
-    Id: g=28a7005c0cdaf1a8feb7e443e76c52b5
     Type: SwitchStyle
   - Name: GaugeStyle
-    Id: g=cd710f8dc770797539f091df50406dc9
     Type: GaugeStyle
   - Name: ScrollBarStyle
-    Id: g=6e21f3be94bace53a10569168e156683
     Type: ScrollBarStyle
   - Name: DataListStyle
-    Id: g=2b6a0f82c296a242b61c1ec3252f33b8
     Type: DataListStyle
     Children:
     - Name: HeaderBackgroundColor
-      Id: g=a476ace00662ea437cc30522d39303aa
       Type: BaseDataVariableType
       DataType: Color
       Value: "#86c9e1"
     - Name: HeaderTextColor
-      Id: g=606639029bf64f8aba60822d5eaf8a2d
       Type: BaseDataVariableType
       DataType: Color
       Value: "#515151"
     - Name: BackgroundColor
-      Id: g=94c10d1be6000fc3cf55814cd5bf86fb
       Type: BaseDataVariableType
       DataType: Color
       Value: "#d1d1d1"
     - Name: AlternateBackgroundColor
-      Id: g=b49b21f2744cc38d7310486d919f2596
       Type: BaseDataVariableType
       DataType: Color
       Value: "#f1f1f1"
   - Name: ChartStyle
-    Id: g=e3b673cfb7675ca9418fbcd91e9dcd0a
     Type: ChartStyle
   - Name: ToolTipStyle
-    Id: g=3469f5eddb76b36ce100c3ed67fbc52a
     Type: ToolTipStyle
   - Name: NavigationPanelStyle
-    Id: g=afcce1f57faf8cb22accb9f0794c2370
     Type: NavigationPanelStyle
   - Name: AccordionStyle
-    Id: g=c507e5f7444b7108abefb97a5abeb899
     Type: AccordionStyle
   - Name: PieChartStyle
-    Id: g=9f89c94fed7fc9a19658ccfed3139482
     Type: PieChartStyle
   - Name: HistogramChartStyle
-    Id: g=50050c6250f1bc8dcc548ca55930739c
     Type: HistogramChartStyle
 - Name: ReportStyleSheet2
   Id: g=fe129db5ad3db65897cfc6fdfdc7f0ce
   Type: ReportStyleSheet
   Children:
   - Name: FontPixelSize
-    Id: g=63bfc0768ca12a10e279832f8da7d2ea
     Type: BaseDataVariableType
     DataType: Float
     Value: 16.0
   - Name: TextColor
-    Id: g=e008c4c55d8407a9698d91b0e4458dde
     Type: BaseDataVariableType
     DataType: Color
     Value: "#82b7fff5"
   - Name: FontWeight
-    Id: g=79d3ea9cd1e37e3df76bc788047e94c4
     Type: BaseDataVariableType
     DataType: FontWeightEnum
     Value: 400
   - Name: BorderColor
-    Id: g=c4a6981a636b006f7d0bf44dc74c58e4
     Type: BaseDataVariableType
     DataType: Color
     Value: "#b3b3b3"
   - Name: FontFamily
-    Id: g=6c0526e7f5592ed59827c1fefc53558a
     Type: BaseDataVariableType
     DataType: Font
     Value: "Segoe UI"
   - Name: ButtonStyle
-    Id: g=8aa65913da43d7d05dc27488ad360465
     Type: ButtonStyle
   - Name: ButtonAccentStyle
-    Id: g=be05e2040ce00fd89eb9f00694010423
     Type: ButtonStyle
   - Name: DataInputStyle
-    Id: g=3eaa78daa41a6a51e6ff080928c4e87c
     Type: DataInputStyle
   - Name: SwitchStyle
-    Id: g=7f0e2e035c143162e00cc4786d77983d
     Type: SwitchStyle
   - Name: GaugeStyle
-    Id: g=eba42e5a1c8fe1ee4b0516e64f635d19
     Type: GaugeStyle
   - Name: ScrollBarStyle
-    Id: g=727829532adeb57198504cfe089cacf6
     Type: ScrollBarStyle
   - Name: DataListStyle
-    Id: g=cc7a5d11d9b1a1bb6087d42ebb0186f7
     Type: DataListStyle
     Children:
     - Name: HeaderBackgroundColor
-      Id: g=cec6f6850177268e7853aac78bf496a0
       Type: BaseDataVariableType
       DataType: Color
       Value: "#95e3ff"
     - Name: HeaderTextColor
-      Id: g=8b3b785d6dc4c377b9549b4427525b8a
       Type: BaseDataVariableType
       DataType: Color
       Value: "#000000"
     - Name: BackgroundColor
-      Id: g=07b36398c8c2469a5b17b6a386df221d
       Type: BaseDataVariableType
       DataType: Color
       Value: "#d3d3d3"
     - Name: AlternateBackgroundColor
-      Id: g=c391228b12450ea4a91c12a8e8eb6d24
       Type: BaseDataVariableType
       DataType: Color
       Value: "#caf0f6"
   - Name: ChartStyle
-    Id: g=da7e2192ddcc1c151eabe2b561c1caf0
     Type: ChartStyle
   - Name: ToolTipStyle
-    Id: g=9862d18fb167c639765c3e54db993a77
     Type: ToolTipStyle
   - Name: NavigationPanelStyle
-    Id: g=ffa20b2927f046c70a80396bb923c026
     Type: NavigationPanelStyle
   - Name: AccordionStyle
-    Id: g=c103359b5f67574238433992fbca446e
     Type: AccordionStyle
   - Name: PieChartStyle
-    Id: g=b6d32b6984c29865a69df72d24a106e6
     Type: PieChartStyle
   - Name: HistogramChartStyle
-    Id: g=df96be58742434ce0a1a3eb5978268a2
     Type: HistogramChartStyle
 - Name: Reports1
   Id: g=05618d7d89a8edc157d794c37faeaee9
@@ -181,68 +137,57 @@ Children:
   ReferenceType: HasComponent
   Children:
   - Name: PageSize
-    Id: g=60d37ad29a69c745f34ca05420b6b2e3
     Type: BaseDataVariableType
     DataType: PageSize
     Value: 2
   - Name: PageWidth
-    Id: g=27c34635e30d5227ab2e30e150354e19
     Type: BaseDataVariableType
     DataType: Size
     Value: 210.0
     Children:
     - Name: EngineeringUnits
-      Id: g=2fb8fbda8162793082de0440bc51384d
       Type: EUInformationType
       DataType: EUInformation
       Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
       Children:
       - Name: UnitId
-        Id: g=0ffb274b2f56e563d7529eb77a1729e9
         Type: BaseVariableType
         DataType: Int32
         ReferenceType: HasProperty
         AccessLevel: Read
         Value: 5066068
       - Name: DisplayName
-        Id: g=da34be9f143b6d2bce60ff66a2881826
         Type: BaseVariableType
         DataType: LocalizedText
         ReferenceType: HasProperty
         Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Description
-        Id: g=95239dbf4b96cc1dd28115c71de22f67
         Type: BaseVariableType
         DataType: LocalizedText
         ReferenceType: HasProperty
         Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: PageHeight
-    Id: g=af8089f00550ecd2eb32a687b7f786b1
     Type: BaseDataVariableType
     DataType: Size
     Value: 297.0
     Children:
     - Name: EngineeringUnits
-      Id: g=2cb235db2966eede17d37b42f3c03fd6
       Type: EUInformationType
       DataType: EUInformation
       Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
       Children:
       - Name: UnitId
-        Id: g=41d61e2065700586ac25ce2e831cb29a
         Type: BaseVariableType
         DataType: Int32
         ReferenceType: HasProperty
         AccessLevel: Read
         Value: 5066068
       - Name: DisplayName
-        Id: g=7665a9931a376fb51de407ddba8b0ce3
         Type: BaseVariableType
         DataType: LocalizedText
         ReferenceType: HasProperty
         Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Description
-        Id: g=b7f7648c331aa2f38ffca3886e9a17f7
         Type: BaseVariableType
         DataType: LocalizedText
         ReferenceType: HasProperty
@@ -254,235 +199,195 @@ Children:
     Value: {"IdType":2,"Id":"948d3039bf1bb1313ee4ffadc307a299","Namespace":40}
     Children:
     - Name: Kind
-      Id: g=de0ecd61a28a94ca2b739452570ddde1
       Type: PropertyType
       DataType: NodeId
       Value: {"Id":192,"Namespace":9}
   - Name: PageCount
-    Id: g=0d82f1eb8bd05ec6ee7c1023107bfddb
     Type: BaseDataVariableType
     DataType: String
     AccessLevel: Read
     Value: "{page_count}"
   - Name: PageNumber
-    Id: g=d3f8e18bd78fdd6f13d234bbd015b28a
     Type: BaseDataVariableType
     DataType: String
     AccessLevel: Read
     Value: "{page_number}"
   - Name: PrintDateTime
-    Id: g=089cb35268b150b942a8d08a73ca196e
     Type: BaseDataVariableType
     DataType: DateTime
     AccessLevel: Read
     Value: "1601-01-01T00:00:00.0000000"
   - Name: Header
-    Id: g=ba2047c995709960ad8a8c7fbcee28b7
     Type: Panel
     Children:
     - Name: Height
-      Id: g=966990161e12a7f50b47d45335b71c26
       Type: BaseDataVariableType
       DataType: Size
       Value: 20.0
       Children:
       - Name: EngineeringUnits
-        Id: g=444ed6b83b2b785ede3a62a3e3becccc
         Type: EUInformationType
         DataType: EUInformation
         Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
         Children:
         - Name: UnitId
-          Id: g=6b940108fcce41231fa56f556a5ee7df
           Type: BaseVariableType
           DataType: Int32
           ReferenceType: HasProperty
           AccessLevel: Read
           Value: 5066068
         - Name: DisplayName
-          Id: g=44435f66369ecd7022d6917f97987d0f
           Type: BaseVariableType
           DataType: LocalizedText
           ReferenceType: HasProperty
           Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Description
-          Id: g=013710c6dad8c8157436d6317fd6c746
           Type: BaseVariableType
           DataType: LocalizedText
           ReferenceType: HasProperty
           Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Name: DateTime
-      Id: g=e0b33b141cef1d28486636951fde4c9b
       Type: ReportLabel
       Children:
       - Name: Text
-        Id: g=9a66dac6e4b2e79d0a7abfedd46a5f75
         Type: BaseDataVariableType
         DataType: LocalizedText
         Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         Children:
         - Name: StringFormatter1
-          Id: g=15915f850b0575e5534e3881779cf8a9
           Type: StringFormatter
           Children:
           - Name: Format
-            Id: g=7fd7d1f8f295577c7443c3f3bb0d8351
             Type: BaseDataVariableType
             DataType: LocalizedText
             ReferenceType: HasParameter
             Value: {"LocaleId":"","Text":"{0:T}"}
           - Name: ns=5;Source0
-            Id: g=955cdb1b61fc0be5b11058d4f112629d
             Type: BaseDataVariableType
             DataType: BaseDataType
             ReferenceType: HasSource
             Children:
             - Name: DynamicLink
-              Id: g=cdd7750b15374d16a64a89cadc9ed159
               Type: DynamicLink
               DataType: NodePath
               Value: "../../../../../PrintDateTime"
       - Name: TopMargin
-        Id: g=ce9255f5a5973824c0640039080dceb4
         Type: BaseDataVariableType
         DataType: Size
         Value: 0.0
         Children:
         - Name: EngineeringUnits
-          Id: g=3e94d7cb6766bc0a6f240e827a398918
           Type: EUInformationType
           DataType: EUInformation
           Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
           Children:
           - Name: UnitId
-            Id: g=dbb816bae608bc997f242019eccc51a6
             Type: BaseVariableType
             DataType: Int32
             ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Id: g=1bb01f3a84f78ca4bb3507b3b606e7ab
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Id: g=80044e0286670cfaf2d8155dc83696dc
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: LeftMargin
-        Id: g=eaaea9e08fd01fc3089fd91e21a4bd6b
         Type: BaseDataVariableType
         DataType: Size
         Value: 185.2083282470703
         Children:
         - Name: EngineeringUnits
-          Id: g=f162b79f5c23ff2e78c52931fa471b90
           Type: EUInformationType
           DataType: EUInformation
           Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
           Children:
           - Name: UnitId
-            Id: g=782b286927756657b7dacc84e93c356c
             Type: BaseVariableType
             DataType: Int32
             ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Id: g=aa9a604f44324d14b4077d2907eb890b
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Id: g=e39018768bc7e1944110d2ac29a3b59d
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: TextColor
-        Id: g=f6c704a50cf7b99c6584e7bb421c25c0
         Type: BaseDataVariableType
         DataType: Color
         Value: "#44505a"
       - Name: HorizontalAlignment
-        Id: g=b04622f13b2c40969649128d89b6245f
         Type: BaseVariableType
         DataType: HorizontalAlignment
         Value: 1
       - Name: VerticalAlignment
-        Id: g=0769a7d5e63289892c64d392405995cd
         Type: BaseVariableType
         DataType: VerticalAlignment
         Value: 2
       - Name: RightMargin
-        Id: g=35859d534d74d26ad155c9e41a100d64
         Type: BaseDataVariableType
         DataType: Size
         Value: 26.722917556762695
         Children:
         - Name: EngineeringUnits
-          Id: g=e32909e5f06dc0eb9074b914ba3a8229
           Type: EUInformationType
           DataType: EUInformation
           Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
           Children:
           - Name: UnitId
-            Id: g=83f41e637aadfb77c0e2ceecb1c9984e
             Type: BaseVariableType
             DataType: Int32
             ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Id: g=8d3037019a4e7b10f9aeb3a9a842fa69
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Id: g=cd99cc74b7ea59b5d5d127b18423eaa5
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Width
-        Id: g=e0d36614187ffd22a135988a0965c479
         Type: BaseDataVariableType
         DataType: Size
         Value: 20.108333587646484
         Children:
         - Name: EngineeringUnits
-          Id: g=8a2161035b19d90a83413b09dce9e9f4
           Type: EUInformationType
           DataType: EUInformation
           Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
           Children:
           - Name: UnitId
-            Id: g=6a601fce200099429be0266261d6108f
             Type: BaseVariableType
             DataType: Int32
             ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Id: g=f7c5953affce3800c7dbcfc2e1853b31
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Id: g=02863d0f8f44b2a4e06816f8c38636b0
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Name: Rotation
-      Id: g=733da45316925fb2d94c08835bdc2d3c
       Type: BaseVariableType
       DataType: Size
       AccessLevel: Read
@@ -493,1156 +398,950 @@ Children:
       DataType: Boolean
       Value: true
     - Name: Image1
-      Id: g=c97f1aa40c7301557ce82bcf264d07cb
       Type: ReportImage
       Children:
       - Name: Path
-        Id: g=3f5a2bb2b3eae3f2b27abbc46e6ac9e6
         Type: BaseDataVariableType
         DataType: ResourceUri
         Value: "ns=40;%PROJECTDIR%/Gram Logo.png"
       - Name: Width
-        Id: g=9628424cc3f417b7c7b8979a569239d2
         Type: BaseDataVariableType
         DataType: Size
         Value: 34.39583206176758
         Children:
         - Name: EngineeringUnits
-          Id: g=0119e1409bd8aad1ace8955c2fb5e55b
           Type: EUInformationType
           DataType: EUInformation
           Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
           Children:
           - Name: UnitId
-            Id: g=d0324af71d52c9571601883a25414df3
             Type: BaseVariableType
             DataType: Int32
             ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Id: g=71c0b769673c8f4c776952fcf07815cb
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Id: g=cb71afbbf1e263d8248b18d8a607469e
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Height
-        Id: g=94c279a00e99b345f73053eb231245e7
         Type: BaseDataVariableType
         DataType: Size
         Value: 15.875
         Children:
         - Name: EngineeringUnits
-          Id: g=56e31439e3812611b8fae04d0201f3e3
           Type: EUInformationType
           DataType: EUInformation
           Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
           Children:
           - Name: UnitId
-            Id: g=4ba08fa4d8a40cfb8213bdfa38bd49e1
             Type: BaseVariableType
             DataType: Int32
             ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Id: g=d35ee2fdba65d734fa6d4df411c7762a
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Id: g=54c8bb10ca3e3df1a6ea2934a16aaeb3
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: VerticalAlignment
-        Id: g=3c28cdb2eaccd3c31e81bf533ac367fe
         Type: BaseVariableType
         DataType: VerticalAlignment
         Value: 2
       - Name: TopMargin
-        Id: g=6c89a89d1d97313d70e752e867befa67
         Type: BaseDataVariableType
         DataType: Size
         Value: 1.0583332777023315
         Children:
         - Name: EngineeringUnits
-          Id: g=6161f3f5a9bc63f6d096ccc96974ef79
           Type: EUInformationType
           DataType: EUInformation
           Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
           Children:
           - Name: UnitId
-            Id: g=455fcf7ba8e77cfc5563f8e94088c4d6
             Type: BaseVariableType
             DataType: Int32
             ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Id: g=af5a956e9f5aa040f07b0d7339fff964
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Id: g=645cb22637e72c4cdb4d49000d9760a1
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: BottomMargin
-        Id: g=972c29c4426a890b501f011e602a1d84
         Type: BaseDataVariableType
         DataType: Size
         Value: 0.0
         Children:
         - Name: EngineeringUnits
-          Id: g=1e360bfa2b98ca632597e9bd31c2aedf
           Type: EUInformationType
           DataType: EUInformation
           Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
           Children:
           - Name: UnitId
-            Id: g=a15d24936e79433167164b9c347718a9
             Type: BaseVariableType
             DataType: Int32
             ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Id: g=8bbfa97abc0445b839e16eac23c5d306
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Id: g=49128565549c5e1c4e9959b1e354f7d7
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: HorizontalAlignment
-        Id: g=bfdd5dfb641a3c2949a6185a3ee47465
         Type: BaseVariableType
         DataType: HorizontalAlignment
         Value: 2
       - Name: LeftMargin
-        Id: g=6b84c2f06de2cd7a04a82907ada22902
         Type: BaseDataVariableType
         DataType: Size
         Value: -1.0583332777023315
         Children:
         - Name: EngineeringUnits
-          Id: g=ec23313238e01e0ce1d775b3fe1db376
           Type: EUInformationType
           DataType: EUInformation
           Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
           Children:
           - Name: UnitId
-            Id: g=d1fc0e9dfc5d324b100b6c943597c1aa
             Type: BaseVariableType
             DataType: Int32
             ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Id: g=ef493f33c3964c49927121539dd7cacc
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Id: g=3707bc7507062f893666ba4b1725aedd
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: RightMargin
-        Id: g=ae1cd13e4b6985deb8b7e3bc328ebf8e
         Type: BaseDataVariableType
         DataType: Size
         Value: 0.0
         Children:
         - Name: EngineeringUnits
-          Id: g=4c6827519f45529b4ffe5d3839c56c7a
           Type: EUInformationType
           DataType: EUInformation
           Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
           Children:
           - Name: UnitId
-            Id: g=612b788aebdaf2afba9084c2c75916b2
             Type: BaseVariableType
             DataType: Int32
             ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Id: g=fc8792dc0f0140beef933507a7da33a3
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Id: g=2777e2fd189bf5846063c2e943f80a9e
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: Sections
-    Id: g=a5fa5353e4aae46e3bebae08785ff57a
     Type: ReportColumnLayout
     Children:
     - Name: PanelSection
-      Id: g=33d0cb086b82640035b37c1baa84ac43
       Type: PanelSection
       Children:
       - Name: Height
-        Id: g=6b7e571dbf54817146f201e76196ad60
         Type: BaseDataVariableType
         DataType: Size
         Value: 76.72916412353516
         Children:
         - Name: EngineeringUnits
-          Id: g=97e4f22ef72bc5ed1372a69d46930c78
           Type: EUInformationType
           DataType: EUInformation
           Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
           Children:
           - Name: UnitId
-            Id: g=64a66ae37e2dbc76b22ba6efc558bc47
             Type: BaseVariableType
             DataType: Int32
             ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Id: g=96df60d69e57c7b83957fe203a676e5c
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Id: g=09d62ffbde52fa83746d49463c35922b
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Report
-        Id: g=1d4a83c7cc87777bc95d7930a0df0d86
         Type: ReportImage
         Children:
         - Name: Path
-          Id: g=b585934fdb969ddd9d38e911f293db71
           Type: BaseDataVariableType
           DataType: ResourceUri
           Value: "ns=40;%PROJECTDIR%/Gram Logo.png"
         - Name: Width
-          Id: g=6812aa42bb7c1caa60074e44a5841442
           Type: BaseDataVariableType
           DataType: Size
           Value: 62.17708206176758
           Children:
           - Name: EngineeringUnits
-            Id: g=e061b39b767885c789eea0c00b12f979
             Type: EUInformationType
             DataType: EUInformation
             Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
             Children:
             - Name: UnitId
-              Id: g=232aabe25908e7fa4e1e076560c1806d
               Type: BaseVariableType
               DataType: Int32
               ReferenceType: HasProperty
               AccessLevel: Read
               Value: 5066068
             - Name: DisplayName
-              Id: g=aba55266c56d82d6f5b8a769787b824f
               Type: BaseVariableType
               DataType: LocalizedText
               ReferenceType: HasProperty
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             - Name: Description
-              Id: g=e7e5392a297ea663a82b9b43ff0614ac
               Type: BaseVariableType
               DataType: LocalizedText
               ReferenceType: HasProperty
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Height
-          Id: g=8e561450cb27ce111eb3783216c1432d
           Type: BaseDataVariableType
           DataType: Size
           Value: 114.03541564941406
           Children:
           - Name: EngineeringUnits
-            Id: g=c80ef1d757fc463cb7012d49e7dec45d
             Type: EUInformationType
             DataType: EUInformation
             Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
             Children:
             - Name: UnitId
-              Id: g=348d307ae76af14cba239ad7e5913ed1
               Type: BaseVariableType
               DataType: Int32
               ReferenceType: HasProperty
               AccessLevel: Read
               Value: 5066068
             - Name: DisplayName
-              Id: g=c514349bc920ef9b9decbcd1ee3436ae
               Type: BaseVariableType
               DataType: LocalizedText
               ReferenceType: HasProperty
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             - Name: Description
-              Id: g=797f76e426069d097aa9941259997d93
               Type: BaseVariableType
               DataType: LocalizedText
               ReferenceType: HasProperty
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: HorizontalAlignment
-          Id: g=22e4b08bcd1789ff7a6b7a110866519c
           Type: BaseVariableType
           DataType: HorizontalAlignment
           Value: 3
         - Name: VerticalAlignment
-          Id: g=fa474a7251dd2a04b11bd88149831731
           Type: BaseVariableType
           DataType: VerticalAlignment
           Value: 3
         - Name: FillMode
-          Id: g=efb6ea6356b585254671dfb12f048597
           Type: BaseDataVariableType
           DataType: FillModeEnum
           Value: 0
         - Name: LeftMargin
-          Id: g=fb94f5a27475244a8eaa8a8dc1ddd98c
           Type: BaseDataVariableType
           DataType: Size
           Value: 25.399999618530273
           Children:
           - Name: EngineeringUnits
-            Id: g=a5a2d8f75469b84554c6753e4b555448
             Type: EUInformationType
             DataType: EUInformation
             Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
             Children:
             - Name: UnitId
-              Id: g=0df5c8153227dfff74cf762d494560da
               Type: BaseVariableType
               DataType: Int32
               ReferenceType: HasProperty
               AccessLevel: Read
               Value: 5066068
             - Name: DisplayName
-              Id: g=6a51027688aae641b07a0a705a85a6a8
               Type: BaseVariableType
               DataType: LocalizedText
               ReferenceType: HasProperty
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             - Name: Description
-              Id: g=fe7452fc587c64326fac707447a1dd52
               Type: BaseVariableType
               DataType: LocalizedText
               ReferenceType: HasProperty
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: TopMargin
-          Id: g=484f8b7b72c6e0671341b84062ceef4b
           Type: BaseDataVariableType
           DataType: Size
           Value: 25.399999618530273
           Children:
           - Name: EngineeringUnits
-            Id: g=7260a38529d46fed57389b15712e8374
             Type: EUInformationType
             DataType: EUInformation
             Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
             Children:
             - Name: UnitId
-              Id: g=ce267140709109d979e0433231341036
               Type: BaseVariableType
               DataType: Int32
               ReferenceType: HasProperty
               AccessLevel: Read
               Value: 5066068
             - Name: DisplayName
-              Id: g=7d98b3359bab3ac952e8225b8c6fb02d
               Type: BaseVariableType
               DataType: LocalizedText
               ReferenceType: HasProperty
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             - Name: Description
-              Id: g=73f6e5716422bf408e56f9ac4dfa123c
               Type: BaseVariableType
               DataType: LocalizedText
               ReferenceType: HasProperty
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: RightMargin
-          Id: g=22d7189b53af75822ba4d58ffa963a58
           Type: BaseDataVariableType
           DataType: Size
           Value: 25.399999618530273
           Children:
           - Name: EngineeringUnits
-            Id: g=ca8f8a5bf51f1e774c9568f39743d340
             Type: EUInformationType
             DataType: EUInformation
             Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
             Children:
             - Name: UnitId
-              Id: g=8a557365e63f2a90cf5a786e4c44abd5
               Type: BaseVariableType
               DataType: Int32
               ReferenceType: HasProperty
               AccessLevel: Read
               Value: 5066068
             - Name: DisplayName
-              Id: g=c74f2a4fe84c9ec05a0dfdc5f4919286
               Type: BaseVariableType
               DataType: LocalizedText
               ReferenceType: HasProperty
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             - Name: Description
-              Id: g=528b467399a426885e59b59ec567feea
               Type: BaseVariableType
               DataType: LocalizedText
               ReferenceType: HasProperty
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: BottomMargin
-          Id: g=3ca67c7a4631e83828849300246126ad
           Type: BaseDataVariableType
           DataType: Size
           Value: 25.399999618530273
           Children:
           - Name: EngineeringUnits
-            Id: g=ebe69a09db0150ef38ce6d3ed6e6f07c
             Type: EUInformationType
             DataType: EUInformation
             Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
             Children:
             - Name: UnitId
-              Id: g=f5a7d278e6eccf050f9231a64bd962e9
               Type: BaseVariableType
               DataType: Int32
               ReferenceType: HasProperty
               AccessLevel: Read
               Value: 5066068
             - Name: DisplayName
-              Id: g=fce0610811ded42327a1c1c9fbcd44f4
               Type: BaseVariableType
               DataType: LocalizedText
               ReferenceType: HasProperty
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
             - Name: Description
-              Id: g=8013723d2b2426c8462b52f36ca753c9
               Type: BaseVariableType
               DataType: LocalizedText
               ReferenceType: HasProperty
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: TopMargin
-        Id: g=fa76bb400d149c15348871874f1b08c4
         Type: BaseDataVariableType
         DataType: Size
         Value: 50.79999923706055
         Children:
         - Name: EngineeringUnits
-          Id: g=810b90444798f51341e29c2ae0136ad5
           Type: EUInformationType
           DataType: EUInformation
           Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
           Children:
           - Name: UnitId
-            Id: g=cb3f7448e3cc25f73f6b07e3bd26ddfa
             Type: BaseVariableType
             DataType: Int32
             ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Id: g=4257fea1ee63ffe1438031b3f7e1c6ed
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Id: g=4202d0f1c1b99b9793ec50d6b24882e5
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Name: PageBreak1
-      Id: g=476a140b71dd477a2d00271b1c859b4a
       Type: PageBreak
     - Name: DataGridSection1
-      Id: g=d9b4a6583e975a1df946399c1299d36f
       Type: DataGridSection
       Children:
       - Name: Columns
-        Id: g=3b658689c9165123b7af95f2a194e2a4
         Type: BaseObjectType
         Children:
         - Name: LocalTimestamp
-          Id: g=9f3296616a2242d2bcee35a07decc24e
           Type: ReportDataGridColumn
           Children:
           - Name: Width
-            Id: g=9346d33d488651820e42727cb2a793b4
             Type: BaseDataVariableType
             DataType: Size
             Value: -1.0
             Children:
             - Name: EngineeringUnits
-              Id: g=d4dcda231d366a46825eca9e4fdac254
               Type: EUInformationType
               DataType: EUInformation
               Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
               Children:
               - Name: UnitId
-                Id: g=aac2a19634cdc6b1b9300839b9425141
                 Type: BaseVariableType
                 DataType: Int32
                 ReferenceType: HasProperty
                 AccessLevel: Read
                 Value: 5066068
               - Name: DisplayName
-                Id: g=d20e16324a16b9a1285c0fae819760e3
                 Type: BaseVariableType
                 DataType: LocalizedText
                 ReferenceType: HasProperty
                 Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               - Name: Description
-                Id: g=adb42e3178a2c941d30325676ecf779c
                 Type: BaseVariableType
                 DataType: LocalizedText
                 ReferenceType: HasProperty
                 Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Title
-            Id: g=37c27b182b5282123548dbad90ae7861
             Type: BaseDataVariableType
             DataType: LocalizedText
             Value: {"LocaleId":"en-US","Text":"LocalTimestamp"}
           - Name: HeaderAlignment
-            Id: g=ca996404fc7847f79214fe1a3622a585
             Type: BaseDataVariableType
             DataType: TextHorizontalAlignment
             Value: 0
           - Name: ContentAlignment
-            Id: g=2d6700743615ed57e887ba03cda4d9da
             Type: BaseVariableType
             DataType: HorizontalAlignment
             Value: 0
           - Name: OrderBy
-            Id: g=435a02a6d02e9a6830fef17ec66f64d1
             Type: BaseDataVariableType
             DataType: NodePath
             Value: "{Item}/LocalTimestamp"
           - Name: DataItemTemplate
-            Id: g=48d0caec86d1cab5a8d4b97c776e1667
             Type: ReportDataGridLabelItemTemplate
             Children:
             - Name: Text
-              Id: g=d90ef1fde39cfebcd62f9918e2e01616
               Type: BaseDataVariableType
               DataType: LocalizedText
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               Children:
               - Name: DynamicLink
-                Id: g=7650869de1b01ac526b7b817cb9e30de
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{Item}/LocalTimestamp"
         - Name: Turn1
-          Id: g=50b7342bb5edef9f1694dd0d7fb13693
           Type: ReportDataGridColumn
           Children:
           - Name: Width
-            Id: g=1dd93faecde91966fe6407e1c6f95b3a
             Type: BaseDataVariableType
             DataType: Size
             Value: -1.0
             Children:
             - Name: EngineeringUnits
-              Id: g=c68c525dab2a2bccca60fd23bb93a029
               Type: EUInformationType
               DataType: EUInformation
               Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
               Children:
               - Name: UnitId
-                Id: g=fef624825c5e6997fea8588e9655d9f8
                 Type: BaseVariableType
                 DataType: Int32
                 ReferenceType: HasProperty
                 AccessLevel: Read
                 Value: 5066068
               - Name: DisplayName
-                Id: g=ec178b6bcc45cb3b6ad6262fc89a13c4
                 Type: BaseVariableType
                 DataType: LocalizedText
                 ReferenceType: HasProperty
                 Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               - Name: Description
-                Id: g=9076c3acec4453546e5d18a2ae577559
                 Type: BaseVariableType
                 DataType: LocalizedText
                 ReferenceType: HasProperty
                 Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Title
-            Id: g=3b4a0ec15efc40a625a7a78a05030fed
             Type: BaseDataVariableType
             DataType: LocalizedText
             Value: {"LocaleId":"en-US","Text":"Turn1"}
           - Name: HeaderAlignment
-            Id: g=9ff5ab01a6e39c6bfc26c9b4665ab596
             Type: BaseDataVariableType
             DataType: TextHorizontalAlignment
             Value: 0
           - Name: ContentAlignment
-            Id: g=7c3a6611708ade9aeb706f144b1d1b96
             Type: BaseVariableType
             DataType: HorizontalAlignment
             Value: 0
           - Name: OrderBy
-            Id: g=b2804d0031e8d01fdf8e072d68655d97
             Type: BaseDataVariableType
             DataType: NodePath
             Value: "{Item}/Turn1"
           - Name: DataItemTemplate
-            Id: g=960adaeda8f4ceb6cbcefac3b23f5417
             Type: ReportDataGridLabelItemTemplate
             Children:
             - Name: Text
-              Id: g=802b3e50d67b604ae8c227ce9e4df2a7
               Type: BaseDataVariableType
               DataType: LocalizedText
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               Children:
               - Name: DynamicLink
-                Id: g=37a25c6da52e276b932c8840456a18d6
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{Item}/Turn1"
         - Name: Tray1
-          Id: g=803dad579a70f66a282fa656b9a756e8
           Type: ReportDataGridColumn
           Children:
           - Name: Width
-            Id: g=e2e8d6e5b454ab2d555c269fe7d142b0
             Type: BaseDataVariableType
             DataType: Size
             Value: -1.0
             Children:
             - Name: EngineeringUnits
-              Id: g=428b93115d59360687be47948cb1d1d3
               Type: EUInformationType
               DataType: EUInformation
               Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
               Children:
               - Name: UnitId
-                Id: g=550092ad4c0745b4ccecbcaab698fe4d
                 Type: BaseVariableType
                 DataType: Int32
                 ReferenceType: HasProperty
                 AccessLevel: Read
                 Value: 5066068
               - Name: DisplayName
-                Id: g=5be6ac3e406f3fcf1facaf2bbf0208a8
                 Type: BaseVariableType
                 DataType: LocalizedText
                 ReferenceType: HasProperty
                 Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               - Name: Description
-                Id: g=d13dcc9e376e5d3bb340dd3d01b0227a
                 Type: BaseVariableType
                 DataType: LocalizedText
                 ReferenceType: HasProperty
                 Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Title
-            Id: g=4404911e044a5df084f700bf16283a0a
             Type: BaseDataVariableType
             DataType: LocalizedText
             Value: {"LocaleId":"en-US","Text":"Tray1"}
           - Name: HeaderAlignment
-            Id: g=ee2234fa3655473d28a74430762084da
             Type: BaseDataVariableType
             DataType: TextHorizontalAlignment
             Value: 0
           - Name: ContentAlignment
-            Id: g=edaac37f54154c5e10c22e36b701ad69
             Type: BaseVariableType
             DataType: HorizontalAlignment
             Value: 0
           - Name: OrderBy
-            Id: g=32c8f9ec5b7888af60f9979aa9bed109
             Type: BaseDataVariableType
             DataType: NodePath
             Value: "{Item}/Tray1"
           - Name: DataItemTemplate
-            Id: g=b29dbfac52638bbdfa285536ac4aaeae
             Type: ReportDataGridLabelItemTemplate
             Children:
             - Name: Text
-              Id: g=707e2890f9218f014167476507fd5d66
               Type: BaseDataVariableType
               DataType: LocalizedText
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               Children:
               - Name: DynamicLink
-                Id: g=ac0be3dc7590cb54a7ede2f789369079
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{Item}/Tray1"
         - Name: Row1
-          Id: g=6c0589ffcd474f467366739de8733383
           Type: ReportDataGridColumn
           Children:
           - Name: Width
-            Id: g=5fa6494bdb8f3ded67c88d86f0c5b321
             Type: BaseDataVariableType
             DataType: Size
             Value: -1.0
             Children:
             - Name: EngineeringUnits
-              Id: g=4773972b50ea85fc818b1bc01c2bca4c
               Type: EUInformationType
               DataType: EUInformation
               Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
               Children:
               - Name: UnitId
-                Id: g=55986b3f4ecbf0c4f1315d7cba8afce9
                 Type: BaseVariableType
                 DataType: Int32
                 ReferenceType: HasProperty
                 AccessLevel: Read
                 Value: 5066068
               - Name: DisplayName
-                Id: g=ca8b4f538165a24e117fab866ffda899
                 Type: BaseVariableType
                 DataType: LocalizedText
                 ReferenceType: HasProperty
                 Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               - Name: Description
-                Id: g=82cf23555fe452a3e5e9968d4031d425
                 Type: BaseVariableType
                 DataType: LocalizedText
                 ReferenceType: HasProperty
                 Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Title
-            Id: g=2112040974bb6ff55cff1218e873c60b
             Type: BaseDataVariableType
             DataType: LocalizedText
             Value: {"LocaleId":"en-US","Text":"Row1"}
           - Name: HeaderAlignment
-            Id: g=a22463cd2d479af052111a8478647b7c
             Type: BaseDataVariableType
             DataType: TextHorizontalAlignment
             Value: 0
           - Name: ContentAlignment
-            Id: g=c80e00b9da481c274f9ef4a68a56d810
             Type: BaseVariableType
             DataType: HorizontalAlignment
             Value: 0
           - Name: OrderBy
-            Id: g=7def9038ceab94c4e039fcab06832077
             Type: BaseDataVariableType
             DataType: NodePath
             Value: "{Item}/Row1"
           - Name: DataItemTemplate
-            Id: g=f4314df8cdd7bd5b7b9c460df1ec5f5d
             Type: ReportDataGridLabelItemTemplate
             Children:
             - Name: Text
-              Id: g=0b31527226da1beb463646f638f33e2e
               Type: BaseDataVariableType
               DataType: LocalizedText
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               Children:
               - Name: DynamicLink
-                Id: g=77a92e715c77a1b643b0112df7312437
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{Item}/Row1"
         - Name: Error1
-          Id: g=92ab111fbe37958569cab12d2c91ec56
           Type: ReportDataGridColumn
           Children:
           - Name: Width
-            Id: g=051c6dc544dacf17f54139bbbe406c7a
             Type: BaseDataVariableType
             DataType: Size
             Value: -1.0
             Children:
             - Name: EngineeringUnits
-              Id: g=4ce14d66dabbf0b27d58891d2ce469a6
               Type: EUInformationType
               DataType: EUInformation
               Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
               Children:
               - Name: UnitId
-                Id: g=43129a852b3714b3db79e0b7f4660c34
                 Type: BaseVariableType
                 DataType: Int32
                 ReferenceType: HasProperty
                 AccessLevel: Read
                 Value: 5066068
               - Name: DisplayName
-                Id: g=810ed2f0904d217e19d6218d498469e9
                 Type: BaseVariableType
                 DataType: LocalizedText
                 ReferenceType: HasProperty
                 Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               - Name: Description
-                Id: g=cea0b30d14691cc22e1714236de94132
                 Type: BaseVariableType
                 DataType: LocalizedText
                 ReferenceType: HasProperty
                 Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Title
-            Id: g=c9bf34addc72d1d8b8685399886d3722
             Type: BaseDataVariableType
             DataType: LocalizedText
             Value: {"LocaleId":"en-US","Text":"Error1"}
           - Name: HeaderAlignment
-            Id: g=7ba12e1e331ae6408a84d9d714ce06b7
             Type: BaseDataVariableType
             DataType: TextHorizontalAlignment
             Value: 0
           - Name: ContentAlignment
-            Id: g=2b6eb1c009ba628119ba441569148f29
             Type: BaseVariableType
             DataType: HorizontalAlignment
             Value: 0
           - Name: OrderBy
-            Id: g=a5633f228729ff3bf65260c773f821fc
             Type: BaseDataVariableType
             DataType: NodePath
             Value: "{Item}/Error1"
           - Name: DataItemTemplate
-            Id: g=34bcf027f0d07c01c799cea114e47744
             Type: ReportDataGridLabelItemTemplate
             Children:
             - Name: Text
-              Id: g=7f36aebe9510b76b634d841965b6fc14
               Type: BaseDataVariableType
               DataType: LocalizedText
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               Children:
               - Name: DynamicLink
-                Id: g=de3df5df4d80b34eafbc06c870f6198f
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{Item}/Error1"
         - Name: Turn2
-          Id: g=0bb9451702ba979b6373700be2d54040
           Type: ReportDataGridColumn
           Children:
           - Name: Width
-            Id: g=04b80a6e4318cd1bdcf440fdf5c2b55d
             Type: BaseDataVariableType
             DataType: Size
             Value: -1.0
             Children:
             - Name: EngineeringUnits
-              Id: g=2415da161db5005d12bbd5d047cad5fa
               Type: EUInformationType
               DataType: EUInformation
               Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
               Children:
               - Name: UnitId
-                Id: g=d129cf6c3c455e086f27dc972ccc6494
                 Type: BaseVariableType
                 DataType: Int32
                 ReferenceType: HasProperty
                 AccessLevel: Read
                 Value: 5066068
               - Name: DisplayName
-                Id: g=1d950026e6229a44ad38852a0f8d7574
                 Type: BaseVariableType
                 DataType: LocalizedText
                 ReferenceType: HasProperty
                 Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               - Name: Description
-                Id: g=2cc2a4e5349707401bc8dc4fedb7d6bc
                 Type: BaseVariableType
                 DataType: LocalizedText
                 ReferenceType: HasProperty
                 Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Title
-            Id: g=ec4da73a3c058c633a762580286f0b4b
             Type: BaseDataVariableType
             DataType: LocalizedText
             Value: {"LocaleId":"en-US","Text":"Turn2"}
           - Name: HeaderAlignment
-            Id: g=ca8f155731a983a5c7d06652d202c94f
             Type: BaseDataVariableType
             DataType: TextHorizontalAlignment
             Value: 0
           - Name: ContentAlignment
-            Id: g=6f39b953d177aa403150365790c14a33
             Type: BaseVariableType
             DataType: HorizontalAlignment
             Value: 0
           - Name: OrderBy
-            Id: g=2bd34b3b6064f22ac6da648232e02170
             Type: BaseDataVariableType
             DataType: NodePath
             Value: "{Item}/Turn2"
           - Name: DataItemTemplate
-            Id: g=5b8ef10f31b041014ab7a3f4c0041947
             Type: ReportDataGridLabelItemTemplate
             Children:
             - Name: Text
-              Id: g=f81b65e79ccf03f1c283059413d75966
               Type: BaseDataVariableType
               DataType: LocalizedText
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               Children:
               - Name: DynamicLink
-                Id: g=968edc46f4daf1b185126114ae14fbec
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{Item}/Turn2"
         - Name: Tray2
-          Id: g=2afb810c751ef9b6980ff6655c6ed5f0
           Type: ReportDataGridColumn
           Children:
           - Name: Width
-            Id: g=9196ebdad33dc4558e8676a9d62daa05
             Type: BaseDataVariableType
             DataType: Size
             Value: -1.0
             Children:
             - Name: EngineeringUnits
-              Id: g=27a8bbe57a74c9220625bc9fed2b75d9
               Type: EUInformationType
               DataType: EUInformation
               Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
               Children:
               - Name: UnitId
-                Id: g=a042c47364f6d2bd26740cf98490e8c5
                 Type: BaseVariableType
                 DataType: Int32
                 ReferenceType: HasProperty
                 AccessLevel: Read
                 Value: 5066068
               - Name: DisplayName
-                Id: g=58fbbb92312a3a07fe81991db0249b9d
                 Type: BaseVariableType
                 DataType: LocalizedText
                 ReferenceType: HasProperty
                 Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               - Name: Description
-                Id: g=d6d415b362379ecc717cec9e89ab4f9b
                 Type: BaseVariableType
                 DataType: LocalizedText
                 ReferenceType: HasProperty
                 Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Title
-            Id: g=c8eac46cc2af6dce287e54760a3a706f
             Type: BaseDataVariableType
             DataType: LocalizedText
             Value: {"LocaleId":"en-US","Text":"Tray2"}
           - Name: HeaderAlignment
-            Id: g=36acc7cfaa8129c80d993576c334cf17
             Type: BaseDataVariableType
             DataType: TextHorizontalAlignment
             Value: 0
           - Name: ContentAlignment
-            Id: g=20ee39acef550c9f3885ec89d76c8e63
             Type: BaseVariableType
             DataType: HorizontalAlignment
             Value: 0
           - Name: OrderBy
-            Id: g=792ac02e3ff2cea778d1210a1a5dc4df
             Type: BaseDataVariableType
             DataType: NodePath
             Value: "{Item}/Tray2"
           - Name: DataItemTemplate
-            Id: g=1ea2bbd08906817632f7a6c8f1cdff07
             Type: ReportDataGridLabelItemTemplate
             Children:
             - Name: Text
-              Id: g=eacd339dd199cb3b2c6d36b2e3eb8970
               Type: BaseDataVariableType
               DataType: LocalizedText
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               Children:
               - Name: DynamicLink
-                Id: g=973b5bbf059558e4f9a67f97cd582597
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{Item}/Tray2"
         - Name: Row2
-          Id: g=5bce1cba9bb62ca00dbceab46db3a11c
           Type: ReportDataGridColumn
           Children:
           - Name: Width
-            Id: g=c6f8e588a47bee47e38f617627385fec
             Type: BaseDataVariableType
             DataType: Size
             Value: -1.0
             Children:
             - Name: EngineeringUnits
-              Id: g=6cc8b2f014d27b9493d33bcdfd76c9ab
               Type: EUInformationType
               DataType: EUInformation
               Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
               Children:
               - Name: UnitId
-                Id: g=5a86a2104b3a487526147dde26448904
                 Type: BaseVariableType
                 DataType: Int32
                 ReferenceType: HasProperty
                 AccessLevel: Read
                 Value: 5066068
               - Name: DisplayName
-                Id: g=a687f81c497c7e0027b71517a492e98e
                 Type: BaseVariableType
                 DataType: LocalizedText
                 ReferenceType: HasProperty
                 Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               - Name: Description
-                Id: g=7b0b95f1d006d73098c9788c66e8d52f
                 Type: BaseVariableType
                 DataType: LocalizedText
                 ReferenceType: HasProperty
                 Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Title
-            Id: g=e85585465a4bccef4821c39bef589bd5
             Type: BaseDataVariableType
             DataType: LocalizedText
             Value: {"LocaleId":"en-US","Text":"Row2"}
           - Name: HeaderAlignment
-            Id: g=af136fd8bb0a26b409ae43bbac792fb3
             Type: BaseDataVariableType
             DataType: TextHorizontalAlignment
             Value: 0
           - Name: ContentAlignment
-            Id: g=264ec58e7a91e97b1f55dc3c8cdd8245
             Type: BaseVariableType
             DataType: HorizontalAlignment
             Value: 0
           - Name: OrderBy
-            Id: g=bc653f86af852f52bdbda644544c4776
             Type: BaseDataVariableType
             DataType: NodePath
             Value: "{Item}/Row2"
           - Name: DataItemTemplate
-            Id: g=934061cb2c8bbf7d5f4f2adb839ac315
             Type: ReportDataGridLabelItemTemplate
             Children:
             - Name: Text
-              Id: g=a8676ee6cda16c8aaca23c317191f0d9
               Type: BaseDataVariableType
               DataType: LocalizedText
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               Children:
               - Name: DynamicLink
-                Id: g=bd761708b16b1d16aa83088840b34718
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{Item}/Row2"
         - Name: Error2
-          Id: g=d0ba32cb93e1f834b55622cb13246f50
           Type: ReportDataGridColumn
           Children:
           - Name: Width
-            Id: g=6f5cea82a51cbe0f7a3a0bc8a5fff87c
             Type: BaseDataVariableType
             DataType: Size
             Value: -1.0
             Children:
             - Name: EngineeringUnits
-              Id: g=a49c28a6afb08748d673dbbddd48fcee
               Type: EUInformationType
               DataType: EUInformation
               Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
               Children:
               - Name: UnitId
-                Id: g=32fc0dfb7b02aee8a7620abc85ad1eea
                 Type: BaseVariableType
                 DataType: Int32
                 ReferenceType: HasProperty
                 AccessLevel: Read
                 Value: 5066068
               - Name: DisplayName
-                Id: g=dc63425d2215f77a166050de8e9d247b
                 Type: BaseVariableType
                 DataType: LocalizedText
                 ReferenceType: HasProperty
                 Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               - Name: Description
-                Id: g=a5161362c2199591284112feb41b2147
                 Type: BaseVariableType
                 DataType: LocalizedText
                 ReferenceType: HasProperty
                 Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Title
-            Id: g=05ea3cf9efd8b022f51b17be579b3b9a
             Type: BaseDataVariableType
             DataType: LocalizedText
             Value: {"LocaleId":"en-US","Text":"Error2"}
           - Name: HeaderAlignment
-            Id: g=26a279a3590b82bf79d628fec6588ec2
             Type: BaseDataVariableType
             DataType: TextHorizontalAlignment
             Value: 0
           - Name: ContentAlignment
-            Id: g=2f975f57f42f64e519b8ec5a149562dd
             Type: BaseVariableType
             DataType: HorizontalAlignment
             Value: 0
           - Name: OrderBy
-            Id: g=79ada8f4c65f0742615eb4cf0c0705bd
             Type: BaseDataVariableType
             DataType: NodePath
             Value: "{Item}/Error2"
           - Name: DataItemTemplate
-            Id: g=2d5c3fca52f565e00eb2b2837b849e5c
             Type: ReportDataGridLabelItemTemplate
             Children:
             - Name: Text
-              Id: g=19b439c0b2f067233cdfadf1ba5877ab
               Type: BaseDataVariableType
               DataType: LocalizedText
               Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
               Children:
               - Name: DynamicLink
-                Id: g=4a11103142607757ce9084c549d5324d
                 Type: DynamicLink
                 DataType: NodePath
                 Value: "{Item}/Error2"
       - Name: SelectedItem
-        Id: g=076cc0a43a393d3b893a7dc7e7faaa53
         Type: NodePointer
         DataType: NodeId
         AccessLevel: Read
         Value: {"IdType":0,"Id":0,"Namespace":-1}
         Children:
         - Name: Kind
-          Id: g=04cdb5075e3abffa62d48cc5cd6ba578
           Type: PropertyType
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
       - Name: Model
-        Id: g=aa1879a0a3eb8b99b1530b101d7df898
         Type: NodePointer
         DataType: NodeId
         Value: {"IdType":2,"Id":"af1f36044c62c8bc55f819d988c18a28","Namespace":40}
         Children:
         - Name: ItemKind
-          Id: g=b5dddb5ef5a63e3798734a0600c3dc2c
           Type: PropertyType
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: Kind
-          Id: g=cc8f5e2fd7a56979da759a22b00a239f
           Type: PropertyType
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
@@ -1652,80 +1351,67 @@ Children:
         DataType: String
         Value: "SELECT * FROM \"DataLogger\""
       - Name: Height
-        Id: g=c07d72b93da947dd02b2c1c646a81b39
         Type: BaseDataVariableType
         DataType: Size
         Value: 152.39999389648438
         Children:
         - Name: EngineeringUnits
-          Id: g=ec27a5bececc06ecbd78de251ec03cd1
           Type: EUInformationType
           DataType: EUInformation
           Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
           Children:
           - Name: UnitId
-            Id: g=b755db8bbaed6565743d498f45dc87cc
             Type: BaseVariableType
             DataType: Int32
             ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Id: g=796f6983dbc5529df8c45e4bddd0c08a
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Id: g=c4891d98e4d5844da6ecfd9cc6148ad7
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Item
-        Id: g=8f41d47207aaf8901f227783744b5e79
         Type: Alias
         DataType: NodeId
         Value: {"IdType":0,"Id":0,"Namespace":-1}
         Children:
         - Name: Kind
-          Id: g=8d86d8f95277ba699e9435f805937d74
           Type: PropertyType
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
       - Name: TopMargin
-        Id: g=e8b71c78228bcf558678d6b88ab06a76
         Type: BaseDataVariableType
         DataType: Size
         Value: -127.0
         Children:
         - Name: EngineeringUnits
-          Id: g=5438b41691d5fd128683efc73e733b65
           Type: EUInformationType
           DataType: EUInformation
           Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
           Children:
           - Name: UnitId
-            Id: g=724bbe6a45401dbaf0f0b0852c766f03
             Type: BaseVariableType
             DataType: Int32
             ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Id: g=9d4fef1d78ae99d0357aa05248e36c1d
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Id: g=e76f42c3749850dca758c9beba24f4e9
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: UISelectedItem
-        Id: g=82f71422631b1e1eb422f0b02c57b3b4
         Type: BaseDataVariableType
         DataType: NodeId
         AccessLevel: Read
@@ -1734,381 +1420,316 @@ Children:
         Target: ns=7;i=504
         Direction: Forward
       - Name: SortColumn
-        Id: g=0d99fd65283f153d620d7f7e8a196cca
         Type: BaseDataVariableType
         DataType: NodeId
         Value: {"IdType":0,"Id":0,"Namespace":-1}
         Children:
         - Name: DynamicLink
-          Id: g=e5637a99a0c5131143357ce7166503b6
           Type: DynamicLink
           DataType: NodePath
           Value: "../Columns/Timestamp@NodeId"
       - Name: SortOrder
-        Id: g=494fec52f362a8b9734359b3b69935a8
         Type: BaseDataVariableType
         DataType: SortOrderEnum
         Value: 1
   - Name: Footer
-    Id: g=d404dc7dbe564d6904c237fb115901ff
     Type: Panel
     Children:
     - Name: Height
-      Id: g=eb49c484ce6470bd31183ee2185cf661
       Type: BaseDataVariableType
       DataType: Size
       Value: 20.0
       Children:
       - Name: EngineeringUnits
-        Id: g=c7e5674a34b78e771a118ce05857b737
         Type: EUInformationType
         DataType: EUInformation
         Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
         Children:
         - Name: UnitId
-          Id: g=a35f11f9f73ea490c6c76316c5a77d6c
           Type: BaseVariableType
           DataType: Int32
           ReferenceType: HasProperty
           AccessLevel: Read
           Value: 5066068
         - Name: DisplayName
-          Id: g=ff7bede55d133e874b6b8317f50d0859
           Type: BaseVariableType
           DataType: LocalizedText
           ReferenceType: HasProperty
           Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Description
-          Id: g=1d7d2c8afa49a63cd8ccbe3c717b1d5a
           Type: BaseVariableType
           DataType: LocalizedText
           ReferenceType: HasProperty
           Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Name: Asem
-      Id: g=c117b84311242f0b49bd40ca2ad14454
       Type: ReportImage
       Children:
       - Name: Path
-        Id: g=ecac0092e9c983895d7fc32fa899134d
         Type: BaseDataVariableType
         DataType: ResourceUri
         Value: "ns=40;%PROJECTDIR%/Gram Logo.png"
       - Name: Width
-        Id: g=8b7716b68128fb5838fd9fb83fdf9cf1
         Type: BaseDataVariableType
         DataType: Size
         Value: 37.57083511352539
         Children:
         - Name: EngineeringUnits
-          Id: g=dea1df4b95ede20303e8846460a59083
           Type: EUInformationType
           DataType: EUInformation
           Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
           Children:
           - Name: UnitId
-            Id: g=b5b66324c872b84e48a7c393d2e30e89
             Type: BaseVariableType
             DataType: Int32
             ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Id: g=06e9c5279d18acb7eee9778c59af2d2f
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Id: g=ae3f72fea0255a315c24da900ef3bcf0
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Height
-        Id: g=82cde6ae9a44297296145452bef979de
         Type: BaseDataVariableType
         DataType: Size
         Value: 40.0
         Children:
         - Name: EngineeringUnits
-          Id: g=4ad4ec6798394705f1676072acdbb43b
           Type: EUInformationType
           DataType: EUInformation
           Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
           Children:
           - Name: UnitId
-            Id: g=cd680bad8f34c10d11cf7a8478480bce
             Type: BaseVariableType
             DataType: Int32
             ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Id: g=c154b973f8495529b9d204f39361e375
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Id: g=f7e2226365ea738280d485fef3189eb4
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: HorizontalAlignment
-        Id: g=79ccfbceb268d3a709dbedaf304daf56
         Type: BaseVariableType
         DataType: HorizontalAlignment
         Value: 3
       - Name: VerticalAlignment
-        Id: g=aed8b76c4fa2594da02e2d6af8301eb1
         Type: BaseVariableType
         DataType: VerticalAlignment
         Value: 2
       - Name: LeftMargin
-        Id: g=ed40328ecb04f966d559dd594c7faa0b
         Type: BaseDataVariableType
         DataType: Size
         Value: 15.345833778381348
         Children:
         - Name: EngineeringUnits
-          Id: g=b5063858928e494c40d6d3dc708405ac
           Type: EUInformationType
           DataType: EUInformation
           Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
           Children:
           - Name: UnitId
-            Id: g=608498d4e418b62ccaae83f939f74fc5
             Type: BaseVariableType
             DataType: Int32
             ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Id: g=f79ffa663cb961389a1ac0aaf7a4ce02
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Id: g=b0aea494b9d2e50dcae989d490d390ac
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: RightMargin
-        Id: g=ec494ffc0784b84c9fcc83a6ec5d0e48
         Type: BaseDataVariableType
         DataType: Size
         Value: 157.16250610351563
         Children:
         - Name: EngineeringUnits
-          Id: g=2940325c12ada29804aec83ed6db3d61
           Type: EUInformationType
           DataType: EUInformation
           Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
           Children:
           - Name: UnitId
-            Id: g=c8adba176b659b024fe7bf5484331650
             Type: BaseVariableType
             DataType: Int32
             ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Id: g=bc0e83c08dd2131de0063d72051ccf34
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Id: g=a58a68500adc6357efee100a3d9893f4
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
     - Name: PageNumber
-      Id: g=ada14083a445f0345cfbd757a60503bd
       Type: ReportLabel
       Children:
       - Name: Text
-        Id: g=d2085ac9b1b887c7baf4ddc3caa57b24
         Type: BaseDataVariableType
         DataType: LocalizedText
         Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         Children:
         - Name: StringFormatter1
-          Id: g=0e800b1fd3dd0e5d8cf467fa74a25a34
           Type: StringFormatter
           Children:
           - Name: Format
-            Id: g=40ee9a3c816a66261ad6e4d3921cd25c
             Type: BaseDataVariableType
             DataType: LocalizedText
             ReferenceType: HasParameter
             Value: {"NamespaceIndex":40,"TextId":"Page {0} of {1}"}
           - Name: ns=5;Source0
-            Id: g=b60d958f826b0a1b1278bfa5f4d413b4
             Type: BaseDataVariableType
             DataType: BaseDataType
             ReferenceType: HasSource
             Children:
             - Name: DynamicLink
-              Id: g=b29b7a49c5eb0ff3aa03883e7df0b6f6
               Type: DynamicLink
               DataType: NodePath
               Value: "../../../../../PageNumber"
           - Name: ns=5;Source1
-            Id: g=02abdc3ea573f3962af8dec32eb130f0
             Type: BaseDataVariableType
             DataType: BaseDataType
             ReferenceType: HasSource
             Children:
             - Name: DynamicLink
-              Id: g=afd0cd00b993fb165e98fe1dc1dd1887
               Type: DynamicLink
               DataType: NodePath
               Value: "../../../../../PageCount"
       - Name: TextColor
-        Id: g=b12ae675297f77b71aae36daf517161e
         Type: BaseDataVariableType
         DataType: Color
         Value: "#44505a"
       - Name: TextHorizontalAlignment
-        Id: g=dd3fec9b43c7e58fb1e7dab44c13669e
         Type: BaseVariableType
         DataType: TextHorizontalAlignment
         Value: 0
       - Name: HorizontalAlignment
-        Id: g=567dee85bae4110a78663f9349a743e5
         Type: BaseVariableType
         DataType: HorizontalAlignment
         Value: 1
       - Name: VerticalAlignment
-        Id: g=a6989374469b020531e6d987c7034af1
         Type: BaseVariableType
         DataType: VerticalAlignment
         Value: 2
       - Name: RightMargin
-        Id: g=5734cab7cf85881aec60da568d65415a
         Type: BaseDataVariableType
         DataType: Size
         Value: 16.933332443237305
         Children:
         - Name: EngineeringUnits
-          Id: g=a3a4e24a09913c540e06ff59f334a72f
           Type: EUInformationType
           DataType: EUInformation
           Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
           Children:
           - Name: UnitId
-            Id: g=0cde280106e8d19f58e149785e71ff59
             Type: BaseVariableType
             DataType: Int32
             ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Id: g=a195926cee9646a0de412fdfb1b3f16a
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Id: g=11b5046298c68a4257a9d7b2a751065a
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Width
-        Id: g=e8a88b0434741f93b7fda27158603192
         Type: BaseDataVariableType
         DataType: Size
         Value: 29.10416603088379
         Children:
         - Name: EngineeringUnits
-          Id: g=08e81b8e35a6149dfa057d02ff45c604
           Type: EUInformationType
           DataType: EUInformation
           Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
           Children:
           - Name: UnitId
-            Id: g=f10e3f9c0b6e34f7b7795e38ebce4687
             Type: BaseVariableType
             DataType: Int32
             ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Id: g=6ff1def115a128801ca5692cf962fe11
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Id: g=ff9c9045e5a1f4aeea9190307c88800a
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: TopMargin
-        Id: g=646988e5ac810a7e5f7c70cb845c79cd
         Type: BaseDataVariableType
         DataType: Size
         Value: 0.0
         Children:
         - Name: EngineeringUnits
-          Id: g=0af1b3bde46741d282ae8fa440abd2f8
           Type: EUInformationType
           DataType: EUInformation
           Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
           Children:
           - Name: UnitId
-            Id: g=3278af7bab207eeefdb8c7dcf0bb6f20
             Type: BaseVariableType
             DataType: Int32
             ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Id: g=619ce59db9434420749319b798873302
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Id: g=61f6ee6d6921f10556b0c42d7eca1e46
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: BottomMargin
-        Id: g=53b6b398c396af5bcfaf683991842a1f
         Type: BaseDataVariableType
         DataType: Size
         Value: -1.0
         Children:
         - Name: EngineeringUnits
-          Id: g=9c07eb1b06b29b6cbdff8b2d363b7688
           Type: EUInformationType
           DataType: EUInformation
           Value: {"TypeId":{"Id":887},"Body":{"namespaceUri":"","unitId":0,"displayName":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}
           Children:
           - Name: UnitId
-            Id: g=996d3e81c263891fab34e16fd80e740e
             Type: BaseVariableType
             DataType: Int32
             ReferenceType: HasProperty
             AccessLevel: Read
             Value: 5066068
           - Name: DisplayName
-            Id: g=40374199b66791c8385b8ce1320d077c
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
             Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
           - Name: Description
-            Id: g=35a3814e3772ac97ec7770137db06ded
             Type: BaseVariableType
             DataType: LocalizedText
             ReferenceType: HasProperty
@@ -2117,78 +1738,63 @@ Children:
     Target: ns=9;i=16
     Direction: Forward
   - Name: PDFGeneratedHandler1
-    Id: g=70c6bfbed4e1ce2130c5735abf6c053d
     Type: EventHandler
     Children:
     - Name: ListenEventType
-      Id: g=28e13812f73e50039ba73b52fe57477d
       Type: PropertyType
       DataType: NodeId
       Value: {"Id":378,"Namespace":9}
     - Name: MethodsToCall
-      Id: g=b509898502bb5b873677c1a50e1cdd65
       Type: BaseObjectType
       Children:
       - Name: MethodContainer1
-        Id: g=246d736e6ba79bbd1d6a2d5f54f30240
         Type: BaseObjectType
         Children:
         - Name: ns=5;ObjectPointer
-          Id: g=9dd3a1a89b96952d642304731efcbf50
           Type: NodePointer
           DataType: NodeId
           Value: {"IdType":0,"Id":0,"Namespace":-1}
           Children:
           - Name: Kind
-            Id: g=24a570e5e13c106bb731caefcfabc815
             Type: PropertyType
             DataType: NodeId
             Value: {"Id":58}
           - Name: DynamicLink
-            Id: g=58b6ae8934a10966808f0fe23cd3cfb3
             Type: DynamicLink
             DataType: NodePath
             Value: "../../../../../../../Commands/VariableCommands@NodeId"
             Children:
             - Name: Mode
-              Id: g=52fd5389029268a1a5a58de0babaff96
               Type: BaseVariableType
               DataType: DynamicLinkMode
               Value: 2
         - Name: ns=5;Method
-          Id: g=f16483f93bdb183ce58cde563ed46299
           Type: BaseDataVariableType
           DataType: String
           Value: "Set"
         - Name: InputArguments
-          Id: g=f8c34b424bd8a9c79a74af5fb0029c54
           Type: BaseObjectType
           Children:
           - Name: VariableToModify
-            Id: g=c7ab0f2f32424e4d8a071f45847622ae
             Type: BaseDataVariableType
             DataType: VariablePointer
             Description: {"NamespaceIndex":5,"TextId":"SetVariableToModifyDescription"}
             Value: {"IdType":2,"Id":"33d5a81aa9744c9732d1189bcabf4b21","Namespace":40}
           - Name: Value
-            Id: g=121201d41eb362ce71ef1b934bef3019
             Type: BaseDataVariableType
             DataType: Boolean
             Description: {"NamespaceIndex":5,"TextId":"SetValueDescription"}
             Value: true
           - Name: ArrayIndex
-            Id: g=14f016358842d1cef30f488f879fac85
             Type: BaseDataVariableType
             DataType: UInt32
             Description: {"NamespaceIndex":5,"TextId":"SetArrayIndexDescription"}
             ValueRank: ScalarOrOneDimension
             Value: 0
     - Name: EventArguments
-      Id: g=2f77d9e8cc738ba89c3c6e7fea6172c2
       Type: GeneratePdfCompletedEvent
       Children:
       - Name: OutputPath
-        Id: g=ad435943557e50d9110eb795aacb76e3
         Type: BaseDataVariableType
         DataType: ResourceUri
         ReferenceType: HasProperty
@@ -2200,53 +1806,43 @@ Children:
         ReferenceType: HasProperty
         Value: 0
       - Name: OperationId
-        Id: g=b7dc8e1b3f32bd4924924aeeaa795f39
         Type: BaseDataVariableType
         DataType: Guid
         ReferenceType: HasProperty
         Value: "00000000000000000000000000000000"
       - Name: EventId
-        Id: g=b7b05ed4e8522e49b341f0c387652d03
         Type: PropertyType
         DataType: ByteString
         Value: ""
       - Name: EventType
-        Id: g=0eb7bdb8193fe10289695e0dd1957ee9
         Type: PropertyType
         DataType: NodeId
         Value: {"IdType":0,"Id":0,"Namespace":-1}
       - Name: SourceNode
-        Id: g=77a5832a2297b8096ea85ab7b63bc7ce
         Type: PropertyType
         DataType: NodeId
         Value: {"IdType":0,"Id":0,"Namespace":-1}
       - Name: SourceName
-        Id: g=5ed7f04e5d84ca1992732fe42eeced1d
         Type: PropertyType
         DataType: String
         Value: ""
       - Name: Time
-        Id: g=204f512f5a9e1001bfae6c27532a58a7
         Type: PropertyType
         DataType: UtcTime
         Value: "1601-01-01T00:00:00.0000000"
       - Name: ReceiveTime
-        Id: g=5d7a520cdc0647c796a7b5aef9a6349e
         Type: PropertyType
         DataType: UtcTime
         Value: "1601-01-01T00:00:00.0000000"
       - Name: Message
-        Id: g=2c2aeabb80660c2aa473fbb31f5f6028
         Type: PropertyType
         DataType: LocalizedText
         Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Severity
-        Id: g=2c5cac73a4cf6eca0d097687df34a83e
         Type: PropertyType
         DataType: UInt16
         Value: 0
   - Name: Visible
-    Id: g=2ca26f70917b79c97cdfe94f02607eac
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
