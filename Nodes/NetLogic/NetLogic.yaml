@@ -2,7 +2,6 @@ Name: NetLogic
 Type: NetLogicCategoryFolder
 Children:
 - Name: EmailSenderLogic
-  Id: g=332f12f4f3b7495aca8d48232f5dcc11
   Type: NetLogic
   WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
   Children:

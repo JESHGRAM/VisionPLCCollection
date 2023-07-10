@@ -61,14 +61,6 @@ Project:
    Uri: 'urn:FTOptix:DataLogger:Net'
    Module: FTOptix.DataLogger.Net
    Version: 1.0
-  19:
-   Uri: 'urn:FTOptix:Alarm'
-   Module: FTOptix.Alarm
-   Version: 1.1
-  20:
-   Uri: 'urn:FTOptix:Alarm:Net'
-   Module: FTOptix.Alarm.Net
-   Version: 1.0
   21:
    Uri: 'urn:FTOptix:NativeUI'
    Module: FTOptix.NativeUI

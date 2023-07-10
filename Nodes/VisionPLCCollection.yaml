@@ -5,7 +5,6 @@ Children:
 - File: UI/UI.yaml
 - File: Model/Model.yaml
 - File: Converters/Converters.yaml
-- File: Alarms/Alarms.yaml
 - File: Loggers/Loggers.yaml
 - File: DataStores/DataStores.yaml
 - File: Reports/Reports.yaml
