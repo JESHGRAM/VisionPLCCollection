@@ -6,7 +6,6 @@ Children:
 - File: Model/Model.yaml
 - File: Converters/Converters.yaml
 - File: Alarms/Alarms.yaml
-- File: Recipes/Recipes.yaml
 - File: Loggers/Loggers.yaml
 - File: DataStores/DataStores.yaml
 - File: Reports/Reports.yaml
@@ -16,25 +15,7 @@ Children:
 - File: Translations/Translations.yaml
 - File: Retentivity/Retentivity.yaml
 - File: AlarmTypes/AlarmTypes.yaml
-- Name: RecipeSchema
-  Type: Alias
-  DataType: NodeId
-  Value: {"IdType":2,"Id":"444fd04b7e8899c0ad4ea53e4555e08d","Namespace":40}
-  Children:
-  - Name: Kind
-    Type: PropertyType
-    DataType: NodeId
-    Value: {"IdType":2,"Id":"f4f1cb4324441b489bf03167cb4986c9","Namespace":40}
 - File: RuntimeObjectUI/RuntimeObjectUI.yaml
-- Name: StyleRecipeSchema
-  Type: Alias
-  DataType: NodeId
-  Value: {"IdType":2,"Id":"1358f8b23bb27e83044e3e940c1d6e94","Namespace":40}
-  Children:
-  - Name: Kind
-    Type: PropertyType
-    DataType: NodeId
-    Value: {"IdType":2,"Id":"6bb54b2f906bb83dc142fc0f36d252d0","Namespace":40}
 - Name: PasswordPolicy
   Type: PasswordPolicy
   Children:

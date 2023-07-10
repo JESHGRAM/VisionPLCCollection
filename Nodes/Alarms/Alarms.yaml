@@ -254,5 +254,4 @@ Children:
     Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
 - File: AlarmsWithArea/AlarmsWithArea.yaml
 - File: AlarmsWithEmailNotification/AlarmsWithEmailNotification.yaml
-- File: MachineToMachine/MachineToMachine.yaml
 - File: RuntimeAlarms/RuntimeAlarms.yaml

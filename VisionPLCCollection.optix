@@ -61,14 +61,6 @@ Project:
    Uri: 'urn:FTOptix:DataLogger:Net'
    Module: FTOptix.DataLogger.Net
    Version: 1.0
-  17:
-   Uri: 'urn:FTOptix:Recipe'
-   Module: FTOptix.Recipe
-   Version: 1.0
-  18:
-   Uri: 'urn:FTOptix:Recipe:Net'
-   Module: FTOptix.Recipe.Net
-   Version: 1.0
   19:
    Uri: 'urn:FTOptix:Alarm'
    Module: FTOptix.Alarm

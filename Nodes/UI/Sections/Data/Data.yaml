@@ -16,7 +16,7 @@ Children:
       - Name: Title
         Type: BaseDataVariableType
         DataType: LocalizedText
-        Value: {"NamespaceIndex":40,"TextId":"Datalogger"}
+        Value: {"LocaleId":"en-US","Text":"Datalogger"}
       - Name: Panel
         Type: NodePointer
         DataType: NodeId
@@ -6371,13 +6371,13 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Item}/LocalTimestamp"
-          - Name: PLCTimeStamp
+          - Name: Turn1
             Type: DataGridColumn
             Children:
             - Name: Title
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"LocaleId":"en-US","Text":"PLCTimeStamp"}
+              Value: {"LocaleId":"en-US","Text":"Turn1"}
             - Name: Width
               Type: BaseDataVariableType
               DataType: Size
@@ -6393,7 +6393,7 @@ Children:
             - Name: OrderBy
               Type: BaseDataVariableType
               DataType: NodePath
-              Value: "{Item}/PLCTimeStamp"
+              Value: "{Item}/Turn1"
             - Name: DataItemTemplate
               Type: DataGridLabelItemTemplate
               Children:
@@ -6405,7 +6405,112 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "{Item}/PLCTimeStamp"
+                  Value: "{Item}/Turn1"
+          - Name: Tray1
+            Type: DataGridColumn
+            Children:
+            - Name: Title
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"LocaleId":"en-US","Text":"Tray1"}
+            - Name: Width
+              Type: BaseDataVariableType
+              DataType: Size
+              Value: -1.0
+            - Name: HeaderAlignment
+              Type: BaseDataVariableType
+              DataType: TextHorizontalAlignment
+              Value: 0
+            - Name: ContentAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              Value: 0
+            - Name: OrderBy
+              Type: BaseDataVariableType
+              DataType: NodePath
+              Value: "{Item}/Tray1"
+            - Name: DataItemTemplate
+              Type: DataGridLabelItemTemplate
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Item}/Tray1"
+          - Name: Row1
+            Type: DataGridColumn
+            Children:
+            - Name: Title
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"LocaleId":"en-US","Text":"Row1"}
+            - Name: Width
+              Type: BaseDataVariableType
+              DataType: Size
+              Value: -1.0
+            - Name: HeaderAlignment
+              Type: BaseDataVariableType
+              DataType: TextHorizontalAlignment
+              Value: 0
+            - Name: ContentAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              Value: 0
+            - Name: OrderBy
+              Type: BaseDataVariableType
+              DataType: NodePath
+              Value: "{Item}/Row1"
+            - Name: DataItemTemplate
+              Type: DataGridLabelItemTemplate
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Item}/Row1"
+          - Name: Error1
+            Type: DataGridColumn
+            Children:
+            - Name: Title
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              Value: {"LocaleId":"en-US","Text":"Error1"}
+            - Name: Width
+              Type: BaseDataVariableType
+              DataType: Size
+              Value: -1.0
+            - Name: HeaderAlignment
+              Type: BaseDataVariableType
+              DataType: TextHorizontalAlignment
+              Value: 0
+            - Name: ContentAlignment
+              Type: BaseVariableType
+              DataType: HorizontalAlignment
+              Value: 0
+            - Name: OrderBy
+              Type: BaseDataVariableType
+              DataType: NodePath
+              Value: "{Item}/Error1"
+            - Name: DataItemTemplate
+              Type: DataGridLabelItemTemplate
+              Children:
+              - Name: Text
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "{Item}/Error1"
           - Name: Turn2
             Type: DataGridColumn
             Children:
@@ -6441,13 +6546,13 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "{Item}/Turn2"
-          - Name: TrayRowInlet
+          - Name: Tray2
             Type: DataGridColumn
             Children:
             - Name: Title
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"LocaleId":"en-US","Text":"TrayRowInlet"}
+              Value: {"LocaleId":"en-US","Text":"Tray2"}
             - Name: Width
               Type: BaseDataVariableType
               DataType: Size
@@ -6463,7 +6568,7 @@ Children:
             - Name: OrderBy
               Type: BaseDataVariableType
               DataType: NodePath
-              Value: "{Item}/TrayRowInlet"
+              Value: "{Item}/Tray2"
             - Name: DataItemTemplate
               Type: DataGridLabelItemTemplate
               Children:
@@ -6475,14 +6580,14 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "{Item}/TrayRowInlet"
-          - Name: ErrorInlet
+                  Value: "{Item}/Tray2"
+          - Name: Row2
             Type: DataGridColumn
             Children:
             - Name: Title
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"LocaleId":"en-US","Text":"ErrorInlet"}
+              Value: {"LocaleId":"en-US","Text":"Row2"}
             - Name: Width
               Type: BaseDataVariableType
               DataType: Size
@@ -6498,7 +6603,7 @@ Children:
             - Name: OrderBy
               Type: BaseDataVariableType
               DataType: NodePath
-              Value: "{Item}/ErrorInlet"
+              Value: "{Item}/Row2"
             - Name: DataItemTemplate
               Type: DataGridLabelItemTemplate
               Children:
@@ -6510,14 +6615,14 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "{Item}/ErrorInlet"
-          - Name: TrayRowOutlet
+                  Value: "{Item}/Row2"
+          - Name: Error2
             Type: DataGridColumn
             Children:
             - Name: Title
               Type: BaseDataVariableType
               DataType: LocalizedText
-              Value: {"LocaleId":"en-US","Text":"TrayRowOutlet"}
+              Value: {"LocaleId":"en-US","Text":"Error2"}
             - Name: Width
               Type: BaseDataVariableType
               DataType: Size
@@ -6533,7 +6638,7 @@ Children:
             - Name: OrderBy
               Type: BaseDataVariableType
               DataType: NodePath
-              Value: "{Item}/TrayRowOutlet"
+              Value: "{Item}/Error2"
             - Name: DataItemTemplate
               Type: DataGridLabelItemTemplate
               Children:
@@ -6545,42 +6650,7 @@ Children:
                 - Name: DynamicLink
                   Type: DynamicLink
                   DataType: NodePath
-                  Value: "{Item}/TrayRowOutlet"
-          - Name: ErrorOutlet
-            Type: DataGridColumn
-            Children:
-            - Name: Title
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              Value: {"LocaleId":"en-US","Text":"ErrorOutlet"}
-            - Name: Width
-              Type: BaseDataVariableType
-              DataType: Size
-              Value: -1.0
-            - Name: HeaderAlignment
-              Type: BaseDataVariableType
-              DataType: TextHorizontalAlignment
-              Value: 0
-            - Name: ContentAlignment
-              Type: BaseVariableType
-              DataType: HorizontalAlignment
-              Value: 0
-            - Name: OrderBy
-              Type: BaseDataVariableType
-              DataType: NodePath
-              Value: "{Item}/ErrorOutlet"
-            - Name: DataItemTemplate
-              Type: DataGridLabelItemTemplate
-              Children:
-              - Name: Text
-                Type: BaseDataVariableType
-                DataType: LocalizedText
-                Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-                Children:
-                - Name: DynamicLink
-                  Type: DynamicLink
-                  DataType: NodePath
-                  Value: "{Item}/ErrorOutlet"
+                  Value: "{Item}/Error2"
         - Name: SelectedItem
           Type: NodePointer
           DataType: NodeId
@@ -6972,7 +7042,7 @@ Children:
       - Name: AlarmsEventLogger
         Type: Alias
         DataType: NodeId
-        Value: {"IdType":2,"Id":"a69d3fa773a4d83833ae7b05315b194b","Namespace":40}
+        Value: {"IdType":2,"Id":"19443673963147ffee9c09153f7c8357","Namespace":40}
         Children:
         - Name: Kind
           Type: PropertyType
